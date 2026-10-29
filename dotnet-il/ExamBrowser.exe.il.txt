@@ -1,0 +1,1634 @@
+﻿MISSING TYPE: ExamBrowser.Form_Main
+MISSING TYPE: ExamBrowser.Form_Password
+MISSING TYPE: ExamBrowser.Form_Settings
+MISSING TYPE: ExamBrowser.frmSplashScreen
+MISSING TYPE: ExamBrowser.ValidasiExam
+
+========================================
+TYPE Downloadpembaruan.Form_pembaruan
+========================================
+  FIELD String versionupdate
+  FIELD String nameupdate
+  FIELD WebClient webClient
+  FIELD Stopwatch sw
+  FIELD Boolean hasProgresChanged
+  FIELD Timer checkDLTimer
+  FIELD String ExamFile
+  FIELD String namafilezip
+  FIELD String urlupdatefile
+  FIELD String validseleksi
+  FIELD String jenisos
+  FIELD String urlupdatefolder
+  FIELD SslProtocols _Tls12
+  FIELD SecurityProtocolType Tls12
+  FIELD IContainer components
+  FIELD Panel panelContainer
+  FIELD Panel panelTitleBar
+  FIELD Label LabJudul
+  FIELD Button button1
+  FIELD Label labelDownloaded
+  FIELD ProgressBar updateProgress1
+
+  METHOD Void .ctor()
+      br.s IL_0007: call System.Void POCTPEZfZcdnRff0Gn.z6oAH0ggHioQ5FY2RQ::rPZXSxnqb()
+      call 
+      call z6oAH0ggHioQ5FY2RQ::rPZXSxnqb
+      ldarg.0 
+      newobj Stopwatch::.ctor
+      stfld Form_pembaruan::sw
+      ldarg.0 
+      ldc.i4.0 
+      stfld Form_pembaruan::hasProgresChanged
+      ldarg.0 
+      ldnull 
+      stfld Form_pembaruan::components
+      ldarg.0 
+      call Form::.ctor
+      nop 
+      nop 
+      ldarg.0 
+      call Form_pembaruan::InitializeComponent
+      nop 
+      ret 
+
+  METHOD Void readVersion()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldsfld Form_pembaruan::validseleksi
+      ldc.i4 -699257912
+      ldc.i4 -1358895054
+      add 
+      ldc.i4 -1270794649
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_422f85536c544e78a4fcb4f881ecc3f7
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt String::Equals
+      stloc.1 
+      ldloc.1 
+      brfalse IL_00b6: nop
+      nop 
+      ldsfld Form_pembaruan::jenisos
+      ldc.i4 1749338608
+      ldc.i4 1584127359
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_788db739d6f8473b92ee631d624dc9a6
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt String::Equals
+      stloc.2 
+      ldloc.2 
+      brfalse IL_008e: nop
+      nop 
+      ldc.i4 1077563664
+      ldc.i4 1841924844
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_a804713ab8a5461bb67d7a984a750d46
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::urlupdatefolder
+      nop 
+      br IL_00b0: nop
+      nop 
+      ldc.i4 -614895369
+      ldc.i4 -445979111
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_00a87fefa7344d0ebf46d618fb8b75db
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::urlupdatefolder
+      nop 
+      nop 
+      br IL_0133: ldc.i4 -442368304
+      nop 
+      ldsfld Form_pembaruan::jenisos
+      ldc.i4 -1104592691
+      ldc.i4 -1397110478
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_21cbf90e4d764705b2e9e6903aa5355e
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt String::Equals
+      stloc.3 
+      ldloc.3 
+      brfalse IL_0110: nop
+      nop 
+      ldc.i4 -1259648743
+      ldc.i4 3
+      shl 
+      ldc.i4 -1594551497
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_08f04dd0bb794120bbaadb4224b0c451
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::urlupdatefolder
+      nop 
+      br IL_0132: nop
+      nop 
+      ldc.i4 2060501347
+      ldc.i4 2052719976
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_0befc0c44a7647439969e7608d1fdf34
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::urlupdatefolder
+      nop 
+      nop 
+      ldc.i4 -442368304
+      ldc.i4 1497634405
+      add 
+      ldc.i4 523633842
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_4f0bf5183cb942b5be8a13cbebd43f5e
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldsfld Form_pembaruan::urlupdatefile
+      ldsfld Form_pembaruan::urlupdatefolder
+      ldc.i4 2060501347
+      ldc.i4 95437547
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_11c5bacfd15943e5b5a4ca1dc1a43a12
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call String::Concat
+      call Form_pembaruan::DownloadString
+      stloc.0 
+      ldloc.0 
+      ldc.i4 -1353225769
+      ldc.i4 -2103135495
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_a804713ab8a5461bb67d7a984a750d46
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt String::Contains
+      stloc.s V_4
+      ldloc.s V_4
+      brfalse IL_020d: nop
+      nop 
+      ldc.i4 1402032997
+      ldc.i4 330078356
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_ac1b43ce705547b886924a6aa1695002
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 48
+      ldc.i4.0 
+      call MessageBox::Show
+      pop 
+      ldc.i4 -648370302
+      ldc.i4 -424368941
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_01e99e70540e425091e2f787240a7007
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call Form_pembaruan::TulisLog
+      nop 
+      ldarg.0 
+      call Form_pembaruan::runningApps
+      nop 
+      call Application::Exit
+      nop 
+      nop 
+      br IL_02de: ret
+      nop 
+      ldloc.0 
+      newobj StringReader::.ctor
+      stloc.s V_6
+      nop 
+      ldarg.0 
+      ldloc.s V_6
+      callvirt TextReader::ReadLine
+      stfld Form_pembaruan::versionupdate
+      ldarg.0 
+      ldloc.s V_6
+      callvirt TextReader::ReadLine
+      stfld Form_pembaruan::nameupdate
+      nop 
+      leave IL_0247: ldc.i4 -442368304
+      ldloc.s V_6
+      brfalse IL_0246: endfinally
+      ldloc.s V_6
+      callvirt IDisposable::Dispose
+      nop 
+      endfinally 
+      ldc.i4 -442368304
+      ldc.i4 1497634405
+      add 
+      ldc.i4 817944270
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_028c7ce2bbf3464caaa2e696d8d4c5c8
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call File::ReadAllText
+      stloc.s V_5
+      ldarg.0 
+      ldfld Form_pembaruan::versionupdate
+      ldloc.s V_5
+      callvirt String::Contains
+      stloc.s V_7
+      ldloc.s V_7
+      brfalse IL_02ba: nop
+      nop 
+      ldc.i4 -292971780
+      ldc.i4 -1106122128
+      add 
+      ldc.i4 -537133110
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_f68d4e736d81482e8552c10af220f9b3
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call Form_pembaruan::TulisLog
+      nop 
+      ldarg.0 
+      call Form_pembaruan::runningApps
+      nop 
+      nop 
+      br IL_02dd: nop
+      nop 
+      ldarg.0 
+      ldsfld Form_pembaruan::urlupdatefile
+      ldsfld Form_pembaruan::urlupdatefolder
+      ldarg.0 
+      ldfld Form_pembaruan::nameupdate
+      call String::Concat
+      ldsfld Form_pembaruan::namafilezip
+      call Form_pembaruan::DownloadFile
+      nop 
+      nop 
+      nop 
+      ret 
+
+  METHOD String DownloadString(String address)
+      br.s IL_0007: nop
+      call 
+      nop 
+      nop 
+      call ServicePointManager::get_ServerCertificateValidationCallback
+      ldsfld <>c::<>9__16_0
+      dup 
+      brtrue IL_0030: call System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+      pop 
+      ldsfld <>c::<>9
+      ldftn <>c::<DownloadString>b__16_0
+      newobj RemoteCertificateValidationCallback::.ctor
+      dup 
+      stsfld <>c::<>9__16_0
+      call Delegate::Combine
+      castclass RemoteCertificateValidationCallback
+      call ServicePointManager::set_ServerCertificateValidationCallback
+      nop 
+      ldc.i4 3264
+      call ServicePointManager::set_SecurityProtocol
+      nop 
+      ldarg.0 
+      newobj RestClient::.ctor
+      stloc.0 
+      ldc.i4.0 
+      newobj RestRequest::.ctor
+      stloc.1 
+      ldloc.1 
+      ldc.i4 1567604870
+      ldc.i4 1761130596
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_92b2d5cd7f89418db57fa57a45e7b03f
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4 1756771882
+      ldc.i4 4
+      shl 
+      ldc.i4 -286609658
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_363d7b8a86e54a80971bda354ad29d84
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt RestRequest::AddHeader
+      pop 
+      ldloc.1 
+      ldc.i4 -2065448747
+      ldc.i4 -1974029485
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_0c4e4696ea324d85a3c75d85b317cc7c
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4 -1128566285
+      ldc.i4 -951297902
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_8c76c1479aad46bc8bd2847b06260aae
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt RestRequest::AddHeader
+      pop 
+      ldloc.1 
+      ldc.i4 1068130600
+      ldc.i4 4481721
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_01e99e70540e425091e2f787240a7007
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4 -184916209
+      ldc.i4 35801901
+      xor 
+      ldc.i4 -1733085814
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_91ba7d618cb74def8b0929e162a07539
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt RestRequest::AddHeader
+      pop 
+      ldloc.0 
+      ldloc.1 
+      callvirt RestClient::Execute
+      stloc.2 
+      ldloc.2 
+      callvirt IRestResponse::get_StatusCode
+      ldc.i4 200
+      ceq 
+      stloc.3 
+      ldloc.3 
+      brfalse IL_0146: nop
+      nop 
+      ldloc.2 
+      callvirt IRestResponse::get_Content
+      stloc.s V_4
+      leave IL_0304: ldloc.s V_4
+      nop 
+      ldc.i4 -1246602121
+      ldc.i4 795559992
+      sub 
+      ldc.i4 -1097351090
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_43eafb7d54524098b4a62cc09c7aba61
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stloc.s V_4
+      leave IL_0304: ldloc.s V_4
+      stloc.s V_5
+      nop 
+      call ServicePointManager::get_ServerCertificateValidationCallback
+      ldsfld <>c::<>9__16_1
+      dup 
+      brtrue IL_0199: call System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+      pop 
+      ldsfld <>c::<>9
+      ldftn <>c::<DownloadString>b__16_1
+      newobj RemoteCertificateValidationCallback::.ctor
+      dup 
+      stsfld <>c::<>9__16_1
+      call Delegate::Combine
+      castclass RemoteCertificateValidationCallback
+      call ServicePointManager::set_ServerCertificateValidationCallback
+      nop 
+      ldc.i4 240
+      call ServicePointManager::set_SecurityProtocol
+      nop 
+      ldarg.0 
+      newobj RestClient::.ctor
+      stloc.s V_6
+      ldc.i4.0 
+      newobj RestRequest::.ctor
+      stloc.s V_7
+      ldloc.s V_7
+      ldc.i4 3271958
+      not 
+      ldc.i4 -954284840
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_43eafb7d54524098b4a62cc09c7aba61
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4 1323348281
+      ldc.i4 1128408319
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_464abf8754fc4143b2e55113bbbacb16
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt RestRequest::AddHeader
+      pop 
+      ldloc.s V_7
+      ldc.i4 -12235012
+      ldc.i4 -2087433857
+      add 
+      ldc.i4 -1910520292
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_5b68586c168c4e4f98e4cee79935d719
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4 1443515863
+      ldc.i4 9830002
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_ea8702e62beb4762aeb29eb7da4ba185
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt RestRequest::AddHeader
+      pop 
+      ldloc.s V_7
+      ldc.i4 -794312418
+      ldc.i4 -1782827478
+      sub 
+      ldc.i4 981487875
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_fed7a1e1d45746b5be8db10fae27d2b0
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4 -877339631
+      ldc.i4 -431553259
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_a804713ab8a5461bb67d7a984a750d46
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt RestRequest::AddHeader
+      pop 
+      ldloc.s V_6
+      ldloc.s V_7
+      callvirt RestClient::Execute
+      stloc.s V_8
+      ldloc.s V_8
+      callvirt IRestResponse::get_StatusCode
+      ldc.i4 200
+      ceq 
+      stloc.s V_9
+      ldloc.s V_9
+      brfalse IL_02bc: nop
+      nop 
+      ldloc.s V_8
+      callvirt IRestResponse::get_Content
+      stloc.s V_4
+      leave IL_0304: ldloc.s V_4
+      nop 
+      ldc.i4 -877339631
+      ldc.i4 -1191673108
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_6286881d964346908cb51ea221fef546
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stloc.s V_4
+      leave IL_0304: ldloc.s V_4
+      stloc.s V_10
+      nop 
+      ldc.i4 1083468006
+      ldc.i4 1611427384
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_855ff5850741436292d316ba6d3a00f5
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stloc.s V_4
+      leave IL_0304: ldloc.s V_4
+      ldloc.s V_4
+      ret 
+
+  METHOD Void DownloadFile(String urlAddress, String location)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      newobj WebClient::.ctor
+      dup 
+      stloc.1 
+      stfld Form_pembaruan::webClient
+      ldloc.1 
+      stloc.0 
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::webClient
+      ldarg.0 
+      ldftn Form_pembaruan::Completed
+      newobj AsyncCompletedEventHandler::.ctor
+      callvirt WebClient::add_DownloadFileCompleted
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::webClient
+      ldarg.0 
+      ldftn Form_pembaruan::<DownloadFile>b__17_0
+      newobj DownloadProgressChangedEventHandler::.ctor
+      callvirt WebClient::add_DownloadProgressChanged
+      nop 
+      ldarg.1 
+      ldc.i4 1051972872
+      ldc.i4 1266989517
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_b19e35bb6ceb4be6afe851dcdd791a9e
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4.5 
+      callvirt String::StartsWith
+      brtrue IL_009a: ldarg.1
+      ldc.i4 -1128566285
+      ldc.i4 -758093265
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_91ba7d618cb74def8b0929e162a07539
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldarg.1 
+      call String::Concat
+      newobj Uri::.ctor
+      br IL_00a0: stloc.2
+      ldarg.1 
+      newobj Uri::.ctor
+      stloc.2 
+      ldarg.0 
+      ldfld Form_pembaruan::sw
+      callvirt Stopwatch::Start
+      nop 
+      ldsfld Form_pembaruan::checkDLTimer
+      ldarg.0 
+      ldftn Form_pembaruan::checkDownload
+      newobj ElapsedEventHandler::.ctor
+      callvirt Timer::add_Elapsed
+      nop 
+      ldsfld Form_pembaruan::checkDLTimer
+      ldc.r8 10000
+      callvirt Timer::set_Interval
+      nop 
+      ldsfld Form_pembaruan::checkDLTimer
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      nop 
+      call ServicePointManager::get_ServerCertificateValidationCallback
+      ldsfld <>c::<>9__17_1
+      dup 
+      brtrue IL_010c: call System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+      pop 
+      ldsfld <>c::<>9
+      ldftn <>c::<DownloadFile>b__17_1
+      newobj RemoteCertificateValidationCallback::.ctor
+      dup 
+      stsfld <>c::<>9__17_1
+      call Delegate::Combine
+      castclass RemoteCertificateValidationCallback
+      call ServicePointManager::set_ServerCertificateValidationCallback
+      nop 
+      ldc.i4 3264
+      call ServicePointManager::set_SecurityProtocol
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::webClient
+      ldloc.2 
+      ldarg.2 
+      callvirt WebClient::DownloadFileAsync
+      nop 
+      nop 
+      leave IL_01a9: nop
+      stloc.3 
+      nop 
+      call ServicePointManager::get_ServerCertificateValidationCallback
+      ldsfld <>c::<>9__17_2
+      dup 
+      brtrue IL_0164: call System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+      pop 
+      ldsfld <>c::<>9
+      ldftn <>c::<DownloadFile>b__17_2
+      newobj RemoteCertificateValidationCallback::.ctor
+      dup 
+      stsfld <>c::<>9__17_2
+      call Delegate::Combine
+      castclass RemoteCertificateValidationCallback
+      call ServicePointManager::set_ServerCertificateValidationCallback
+      nop 
+      ldc.i4 240
+      call ServicePointManager::set_SecurityProtocol
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::webClient
+      ldloc.2 
+      ldarg.2 
+      callvirt WebClient::DownloadFileAsync
+      nop 
+      nop 
+      leave IL_01a9: nop
+      stloc.s V_4
+      nop 
+      ldloc.s V_4
+      callvirt Exception::get_Message
+      call MessageBox::Show
+      pop 
+      nop 
+      leave IL_01a9: nop
+      nop 
+      leave IL_01bd: ret
+      ldloc.0 
+      brfalse IL_01bc: endfinally
+      ldloc.0 
+      callvirt IDisposable::Dispose
+      nop 
+      endfinally 
+      ret 
+
+  METHOD Void checkDownload(Object source, ElapsedEventArgs e)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::hasProgresChanged
+      ldc.i4.0 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0026: ret
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::webClient
+      callvirt WebClient::CancelAsync
+      nop 
+      nop 
+      ret 
+
+  METHOD Void ProgressChanged(Object sender, DownloadProgressChangedEventArgs e, Boolean has)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldsfld Form_pembaruan::checkDLTimer
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::updateProgress1
+      ldarg.2 
+      callvirt ProgressChangedEventArgs::get_ProgressPercentage
+      callvirt ProgressBar::set_Value
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4 175289473
+      ldc.i4 1878751383
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_363d7b8a86e54a80971bda354ad29d84
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldarg.2 
+      callvirt DownloadProgressChangedEventArgs::get_BytesReceived
+      conv.r8 
+      ldc.r8 1024
+      div 
+      ldc.r8 1024
+      div 
+      stloc.0 
+      ldloca.s V_0
+      ldc.i4 -722546930
+      neg 
+      ldc.i4 354592020
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_00a87fefa7344d0ebf46d618fb8b75db
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call Double::ToString
+      ldarg.2 
+      callvirt DownloadProgressChangedEventArgs::get_TotalBytesToReceive
+      conv.r8 
+      ldc.r8 1024
+      div 
+      ldc.r8 1024
+      div 
+      stloc.0 
+      ldloca.s V_0
+      ldc.i4 -651973719
+      ldc.i4 -1438396301
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_f68d4e736d81482e8552c10af220f9b3
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call Double::ToString
+      call String::Format
+      callvirt Control::set_Text
+      nop 
+      ldsfld Form_pembaruan::checkDLTimer
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      stfld Form_pembaruan::hasProgresChanged
+      ret 
+
+  METHOD Void Completed(Object sender, AsyncCompletedEventArgs e)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::sw
+      callvirt Stopwatch::Reset
+      nop 
+      ldsfld Form_pembaruan::checkDLTimer
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.2 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0091: nop
+      nop 
+      ldc.i4 933612721
+      neg 
+      ldc.i4 -977759839
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_7b5f653d7fe54631b16e5d79370bd977
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 48
+      ldc.i4.0 
+      call MessageBox::Show
+      pop 
+      ldc.i4 -973640712
+      ldc.i4 1
+      shr 
+      ldc.i4 -821531242
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_a804713ab8a5461bb67d7a984a750d46
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call Form_pembaruan::TulisLog
+      nop 
+      ldsfld Form_pembaruan::namafilezip
+      call File::Delete
+      nop 
+      nop 
+      br IL_00c7: ret
+      nop 
+      ldc.i4 616890382
+      not 
+      ldc.i4 -154589205
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_a804713ab8a5461bb67d7a984a750d46
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldarg.0 
+      ldfld Form_pembaruan::versionupdate
+      call String::Concat
+      call MessageBox::Show
+      pop 
+      ldarg.0 
+      call Form_pembaruan::extract
+      nop 
+      nop 
+      ret 
+
+  METHOD Void extract()
+      br.s IL_0007: nop
+      call 
+      nop 
+      nop 
+      ldsfld Form_pembaruan::namafilezip
+      call ZipFile::Read
+      stloc.0 
+      nop 
+      ldloc.0 
+      ldc.i4 -1961810740
+      ldc.i4 -56621183
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_3a0c862fe82444889037de65d0c68a82
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.i4.1 
+      callvirt ZipFile::ExtractAll
+      nop 
+      nop 
+      leave IL_004c: ldc.i4 -292971780
+      ldloc.0 
+      brfalse IL_004b: endfinally
+      ldloc.0 
+      callvirt IDisposable::Dispose
+      nop 
+      endfinally 
+      ldc.i4 -292971780
+      ldc.i4 -1106122128
+      add 
+      ldc.i4 -324646283
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_ac1b43ce705547b886924a6aa1695002
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call Form_pembaruan::TulisLog
+      nop 
+      nop 
+      leave IL_00db: ldsfld System.String Downloadpembaruan.Form_pembaruan::namafilezip
+      stloc.1 
+      nop 
+      ldc.i4 -1458880604
+      ldc.i4 -1625018435
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_788db739d6f8473b92ee631d624dc9a6
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call MessageBox::Show
+      pop 
+      ldc.i4 -153633198
+      ldc.i4 -594513183
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_6a04cf2c08b34e2ab5fba0dc7a58b160
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldloc.1 
+      dup 
+      brtrue IL_00c5: callvirt System.String System.Object::ToString()
+      pop 
+      ldnull 
+      br IL_00ca: call System.String System.String::Concat(System.String,System.String)
+      callvirt Object::ToString
+      call String::Concat
+      call Form_pembaruan::TulisLog
+      nop 
+      nop 
+      leave IL_00db: ldsfld System.String Downloadpembaruan.Form_pembaruan::namafilezip
+      ldsfld Form_pembaruan::namafilezip
+      call File::Delete
+      nop 
+      ldc.i4 -627625086
+      ldc.i4 3
+      shr 
+      ldc.i4 -2078453004
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_2394459c5a4941cca69bc037fcc08187
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldarg.0 
+      ldfld Form_pembaruan::versionupdate
+      call String::Concat
+      call MessageBox::Show
+      pop 
+      ldc.i4 -880940787
+      not 
+      ldc.i4 1525222980
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_91ba7d618cb74def8b0929e162a07539
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldarg.0 
+      ldfld Form_pembaruan::versionupdate
+      call String::Concat
+      call Form_pembaruan::TulisLog
+      nop 
+      ldarg.0 
+      call Form_pembaruan::runningApps
+      nop 
+      ret 
+
+  METHOD Void button1_Click(Object sender, EventArgs e)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::sw
+      callvirt Stopwatch::Reset
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::webClient
+      callvirt WebClient::CancelAsync
+      nop 
+      ldsfld Form_pembaruan::checkDLTimer
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      ldc.i4 2000
+      call Thread::Sleep
+      nop 
+      ldsfld Form_pembaruan::namafilezip
+      call File::Delete
+      nop 
+      call Application::Exit
+      nop 
+      ret 
+
+  METHOD Void runningApps()
+      br.s IL_0007: nop
+      call 
+      nop 
+      nop 
+      ldsfld Form_pembaruan::ExamFile
+      call Process::Start
+      pop 
+      ldarg.0 
+      call Form::Close
+      nop 
+      nop 
+      leave IL_0094: ret
+      stloc.0 
+      nop 
+      ldc.i4 1957707463
+      ldc.i4 728933776
+      add 
+      ldc.i4 -534828148
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_ac1b43ce705547b886924a6aa1695002
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldloc.0 
+      callvirt Exception::get_Message
+      call String::Concat
+      call MessageBox::Show
+      pop 
+      ldc.i4 -1542215493
+      ldc.i4 -1849178392
+      sub 
+      ldc.i4 788909142
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e65203bc302b463f8bd908842030fdf7
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldloc.0 
+      callvirt Exception::get_Message
+      call String::Concat
+      call Form_pembaruan::TulisLog
+      nop 
+      ldarg.0 
+      call Form::Close
+      nop 
+      nop 
+      leave IL_0094: ret
+      ret 
+
+  METHOD Void TulisLog(String logMessage)
+      br.s IL_0007: nop
+      call 
+      nop 
+      nop 
+      ldc.i4 2098352363
+      ldc.i4 1079803326
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e65203bc302b463f8bd908842030fdf7
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call DateTime::get_Now
+      stloc.0 
+      ldloca.s V_0
+      ldc.i4 -877339631
+      ldc.i4 -56058165
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_9b57db20f46042d7b04b65c29a91db78
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call DateTime::ToString
+      dup 
+      brtrue IL_0059: callvirt System.String System.Object::ToString()
+      pop 
+      ldnull 
+      br IL_005e: ldarg.0
+      callvirt Object::ToString
+      ldarg.0 
+      call Environment::get_NewLine
+      call String::Concat
+      call File::AppendAllText
+      nop 
+      nop 
+      leave IL_0092: ret
+      stloc.1 
+      nop 
+      ldloc.1 
+      callvirt Exception::get_Message
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 48
+      ldc.i4.0 
+      call MessageBox::Show
+      stloc.2 
+      nop 
+      leave IL_0092: ret
+      ret 
+
+  METHOD Void Form_pembaruan_Load(Object sender, EventArgs e)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      call Form_pembaruan::readVersion
+      nop 
+      ret 
+
+  METHOD Void Dispose(Boolean disposing)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.1 
+      brfalse IL_001c: ldc.i4.0
+      ldarg.0 
+      ldfld Form_pembaruan::components
+      ldnull 
+      cgt.un 
+      br IL_001d: stloc.0
+      ldc.i4.0 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0032: ldarg.0
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::components
+      callvirt IDisposable::Dispose
+      nop 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      call Form::Dispose
+      nop 
+      ret 
+
+  METHOD Void InitializeComponent()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldtoken Form_pembaruan
+      call Type::GetTypeFromHandle
+      newobj ComponentResourceManager::.ctor
+      stloc.0 
+      ldarg.0 
+      newobj Panel::.ctor
+      stfld Form_pembaruan::panelContainer
+      ldarg.0 
+      newobj ProgressBar::.ctor
+      stfld Form_pembaruan::updateProgress1
+      ldarg.0 
+      newobj Panel::.ctor
+      stfld Form_pembaruan::panelTitleBar
+      ldarg.0 
+      newobj Label::.ctor
+      stfld Form_pembaruan::LabJudul
+      ldarg.0 
+      newobj Button::.ctor
+      stfld Form_pembaruan::button1
+      ldarg.0 
+      newobj Label::.ctor
+      stfld Form_pembaruan::labelDownloaded
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      callvirt Control::SuspendLayout
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      callvirt Control::SuspendLayout
+      nop 
+      ldarg.0 
+      call Control::SuspendLayout
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      call Color::get_GhostWhite
+      callvirt Control::set_BackColor
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      callvirt Control::get_Controls
+      ldarg.0 
+      ldfld Form_pembaruan::updateProgress1
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      callvirt Control::get_Controls
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      callvirt Control::get_Controls
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      callvirt Control::get_Controls
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      ldc.i4.5 
+      callvirt Control::set_Dock
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      ldc.i4.0 
+      ldc.i4.0 
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      ldc.i4 -975454376
+      ldc.i4 1
+      shl 
+      ldc.i4 -1951012268
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_2ffc3b07cce44cca887a9859967cb583
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      ldc.i4 590
+      ldc.i4 220
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      ldc.i4.7 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::updateProgress1
+      ldc.i4.s 21
+      ldc.i4.s 81
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::updateProgress1
+      ldc.i4 -1373352096
+      neg 
+      ldc.i4 1373918539
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_00e70dae6e2f43939c134fe982b1b544
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::updateProgress1
+      ldc.i4 557
+      ldc.i4.s 23
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::updateProgress1
+      ldc.i4.7 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      ldc.i4.0 
+      ldc.i4.0 
+      ldc.i4 192
+      call Color::FromArgb
+      callvirt Control::set_BackColor
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      callvirt Control::get_Controls
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      ldc.i4.1 
+      callvirt Control::set_Dock
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      ldc.i4.0 
+      ldc.i4.0 
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      ldc.i4 939986006
+      ldc.i4 1139810695
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_8c76c1479aad46bc8bd2847b06260aae
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      ldc.i4 590
+      ldc.i4.s 51
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      ldc.i4.6 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      ldc.i4.1 
+      callvirt Control::set_AutoSize
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      ldc.i4 -1158534057
+      ldc.i4 -1704317825
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_855ff5850741436292d316ba6d3a00f5
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.r4 11
+      ldc.i4.1 
+      ldc.i4.3 
+      ldc.i4.0 
+      newobj Font::.ctor
+      callvirt Control::set_Font
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      call SystemColors::get_ButtonHighlight
+      callvirt Control::set_ForeColor
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      ldc.i4.s 39
+      ldc.i4.s 13
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      ldc.i4 -284891234
+      ldc.i4 -985454167
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_6a04cf2c08b34e2ab5fba0dc7a58b160
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      ldc.i4 199
+      ldc.i4.s 32
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      ldc.i4.0 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::LabJudul
+      ldc.i4 -1275879320
+      ldc.i4 -234185099
+      sub 
+      ldc.i4 -1914411477
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_31664721ec354bb4b116f930a45df5de
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      ldc.i4 470
+      ldc.i4 149
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      ldc.i4 992519042
+      ldc.i4 134010102
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_b543bd462760415fa9f1bb3e2ba87be2
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      ldc.i4.s 108
+      ldc.i4.s 38
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      ldc.i4.4 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      ldc.i4 935046542
+      neg 
+      ldc.i4 -183862213
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e65203bc302b463f8bd908842030fdf7
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      ldc.i4.1 
+      callvirt ButtonBase::set_UseVisualStyleBackColor
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::button1
+      ldarg.0 
+      ldftn Form_pembaruan::button1_Click
+      newobj EventHandler::.ctor
+      callvirt Control::add_Click
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4.1 
+      callvirt Control::set_AutoSize
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4 -1961810740
+      ldc.i4 -1503044884
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_1e2109022b5047b78770c369a1688d63
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      ldc.r4 10
+      ldc.i4.0 
+      ldc.i4.3 
+      ldc.i4.0 
+      newobj Font::.ctor
+      callvirt Control::set_Font
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4 211
+      ldc.i4.s 127
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4 -1747186766
+      ldc.i4 -1696256889
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_6596eb633afa477082d52b04f5642b40
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4 154
+      ldc.i4.s 20
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4.2 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::labelDownloaded
+      ldc.i4 971507714
+      ldc.i4 1250457098
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_f68d4e736d81482e8552c10af220f9b3
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldc.r4 8
+      ldc.r4 16
+      newobj SizeF::.ctor
+      call ContainerControl::set_AutoScaleDimensions
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      call ContainerControl::set_AutoScaleMode
+      nop 
+      ldarg.0 
+      ldc.i4 590
+      ldc.i4 220
+      newobj Size::.ctor
+      call Form::set_ClientSize
+      nop 
+      ldarg.0 
+      call Control::get_Controls
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      call Form::set_FormBorderStyle
+      nop 
+      ldarg.0 
+      ldloc.0 
+      ldc.i4 -912127780
+      ldc.i4 -2117084544
+      add 
+      ldc.i4 189542241
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_ac1b43ce705547b886924a6aa1695002
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt ResourceManager::GetObject
+      castclass Icon
+      call Form::set_Icon
+      nop 
+      ldarg.0 
+      ldc.i4 -1892011477
+      ldc.i4 -262490561
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_11c5bacfd15943e5b5a4ca1dc1a43a12
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      call Control::set_Name
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      call Form::set_StartPosition
+      nop 
+      ldarg.0 
+      ldc.i4 618369589
+      not 
+      ldc.i4 -245128557
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_6a04cf2c08b34e2ab5fba0dc7a58b160
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldarg.0 
+      ldftn Form_pembaruan::Form_pembaruan_Load
+      newobj EventHandler::.ctor
+      call Form::add_Load
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      ldc.i4.0 
+      callvirt Control::ResumeLayout
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelContainer
+      callvirt Control::PerformLayout
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      ldc.i4.0 
+      callvirt Control::ResumeLayout
+      nop 
+      ldarg.0 
+      ldfld Form_pembaruan::panelTitleBar
+      callvirt Control::PerformLayout
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      call Control::ResumeLayout
+      nop 
+      ret 
+
+  METHOD Void .cctor()
+      br.s IL_0007: call System.Void POCTPEZfZcdnRff0Gn.z6oAH0ggHioQ5FY2RQ::rPZXSxnqb()
+      call 
+      call z6oAH0ggHioQ5FY2RQ::rPZXSxnqb
+      newobj Timer::.ctor
+      stsfld Form_pembaruan::checkDLTimer
+      ldc.i4 -794312418
+      ldc.i4 -1782827478
+      sub 
+      ldc.i4 1339875831
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_b19e35bb6ceb4be6afe851dcdd791a9e
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::ExamFile
+      ldc.i4 310299513
+      ldc.i4 1653887608
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_81154e6dfb7f4734a8e704ec816c23a1
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::namafilezip
+      ldc.i4 -627625086
+      ldc.i4 3
+      shr 
+      ldc.i4 -2011250693
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_6286881d964346908cb51ea221fef546
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::urlupdatefile
+      ldc.i4 175289473
+      ldc.i4 175123903
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_2ffc3b07cce44cca887a9859967cb583
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::validseleksi
+      ldc.i4 821447697
+      ldc.i4 -1191744148
+      xor 
+      ldc.i4 -34179223
+      xor 
+      ldsfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_e704b67b91414e74941b79e0bc66fcaf
+      ldfld <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}::m_84bd11efa6124fe99b417b6698ab958f
+      xor 
+      call Ni7vpKpZVHGkY9ZkUb::v8Sa8hFQ7
+      stsfld Form_pembaruan::jenisos
+      ldstr ""
+      stsfld Form_pembaruan::urlupdatefolder
+      ret 
+
+  METHOD Void <DownloadFile>b__17_0(Object sender, DownloadProgressChangedEventArgs e)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldarg.1 
+      ldarg.2 
+      ldarg.0 
+      ldc.i4.1 
+      dup 
+      stloc.0 
+      stfld Form_pembaruan::hasProgresChanged
+      ldloc.0 
+      call Form_pembaruan::ProgressChanged
+      nop 
+      ret 
+
+========================================
+TYPE Downloadpembaruan.Program
+========================================
+
+  METHOD Void Main()
+      br.s IL_0007: nop
+      call 
+      nop 
+      call Application::EnableVisualStyles
+      nop 
+      ldc.i4.0 
+      call Application::SetCompatibleTextRenderingDefault
+      call z6oAH0ggHioQ5FY2RQ::rPZXSxnqb
+      nop 
+      newobj Form_pembaruan::.ctor
+      call Application::Run
+      nop 
+      ret 
+

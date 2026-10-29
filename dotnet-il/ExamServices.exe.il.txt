@@ -1,0 +1,4458 @@
+﻿
+========================================
+TYPE ExamServices.Form1_Main
+========================================
+  FIELD AppConfig l9CiXJCJO
+  FIELD List`1 kM9S5SL1g
+  FIELD j0TtGYFTKU67GQqi4wT[] BUN6oDsb4
+  FIELD cJ3msKFqRnxeQxuWxnO[] DICgfiisy
+  FIELD String ARq1EiOrj
+  FIELD String kS0cFDell
+  FIELD Boolean Xgqqdjr8Z
+  FIELD Boolean r2W4mS9Ja
+  FIELD Boolean rM5QjtioV
+  FIELD Boolean rfcTphY1y
+  FIELD Boolean OPWKoLhJR
+  FIELD Button uGnPw5gso
+  FIELD Timer aBneIGAxF
+  FIELD Timer C5mo3WScR
+  FIELD Timer rnCOy0lm7
+  FIELD Timer liDVqyCtI
+  FIELD BackgroundWorker jxWbZGNp6
+  FIELD IContainer VvEI6ajph
+
+  METHOD Void .ctor()
+      br.s IL_0007: call System.Void PKf6wKmO0NHVrXhHEoV.dJLOPAmoTijWxbGSvCs::urY36js4go()
+      call 
+      call dJLOPAmoTijWxbGSvCs::urY36js4go
+      ldarg.0 
+      ldnull 
+      stfld Form1_Main::VvEI6ajph
+      ldarg.0 
+      call Form::.ctor
+      nop 
+      nop 
+      ldarg.0 
+      call Form1_Main::f7vjJEp0k
+      nop 
+      ret 
+
+  METHOD Void xdfExTDrL()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      newobj List`1::.ctor
+      stfld Form1_Main::kM9S5SL1g
+      newobj GetConfigure::.ctor
+      stloc.0 
+      ldloc.0 
+      ldc.i4.0 
+      callvirt GetConfigure::ReadConfig
+      stloc.1 
+      ldloc.1 
+      ldfld AppConfig::bukadesktop
+      ldc.i4 -1502361157
+      ldc.i4 1870433908
+      add 
+      ldc.i4 1028755310
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b88edb3d4a5443f59f2c94bbb42b1c5d
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt String::Equals
+      stloc.2 
+      ldloc.2 
+      brfalse IL_00f8: nop
+      nop 
+      call Form1_Main::DTn2GRKZ1
+      brtrue IL_008f: ldc.i4.1
+      call Desktop::GetCurrent
+      callvirt Object::ToString
+      ldc.i4 1590823843
+      not 
+      ldc.i4 -1171737704
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_60fcf68a246f430da22c2f187c8b4cc1
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Inequality
+      br IL_0090: stloc.3
+      ldc.i4.1 
+      stloc.3 
+      ldloc.3 
+      brfalse IL_00e4: nop
+      nop 
+      ldc.i4 882046022
+      not 
+      ldc.i4 -1012524927
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_95961dbbf48d4589a7c57776ca31ed70
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4 1688073769
+      ldc.i4 1856888949
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_bbf5652ac68145268339aabf58f2e7a4
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      ldc.i4.s 64
+      call MessageBox::Show
+      pop 
+      call Application::Exit
+      nop 
+      nop 
+      br IL_00f2: nop
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      callvirt Button::PerformClick
+      nop 
+      nop 
+      nop 
+      br IL_0163: ret
+      nop 
+      call Form1_Main::DTn2GRKZ1
+      stloc.s V_4
+      ldloc.s V_4
+      brfalse IL_0154: nop
+      nop 
+      ldc.i4 1153824747
+      ldc.i4 1565698349
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_a41b83e1a14d4fabb4d025f7937fc1aa
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4 590991467
+      not 
+      ldc.i4 -260726049
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_6874963f64554f6c9453fb77ae802833
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      ldc.i4.s 64
+      call MessageBox::Show
+      pop 
+      call Application::Exit
+      nop 
+      nop 
+      br IL_0162: nop
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      callvirt Button::PerformClick
+      nop 
+      nop 
+      nop 
+      ret 
+
+  METHOD Boolean DTn2GRKZ1()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldc.i4 1149963041
+      ldc.i4 939454722
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_e1684c59b1934313ad61f4823737c76c
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call Process::GetProcessesByName
+      stloc.0 
+      ldloc.0 
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      clt 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_003e: nop
+      nop 
+      ldc.i4.1 
+      stloc.2 
+      br IL_0046: ldloc.2
+      nop 
+      ldc.i4.0 
+      stloc.2 
+      br IL_0046: ldloc.2
+      ldloc.2 
+      ret 
+
+  METHOD IsPasswordValid_result IjrYQStyO()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldloca.s V_0
+      initobj IsPasswordValid_result
+      newobj Form_Password::.ctor
+      stloc.1 
+      ldloc.1 
+      ldc.r8 1
+      callvirt Form::set_Opacity
+      nop 
+      ldloc.1 
+      callvirt Form::ShowDialog
+      stloc.2 
+      ldloc.1 
+      callvirt Form::get_DialogResult
+      ldc.i4.1 
+      ceq 
+      stloc.3 
+      ldloc.3 
+      brfalse IL_0044: ldloc.0
+      ldloc.1 
+      callvirt Form_Password::IsPasswordValid
+      stloc.0 
+      ldloc.0 
+      stloc.s V_4
+      br IL_004c: ldloc.s V_4
+      ldloc.s V_4
+      ret 
+
+  METHOD Void SetMessage(String str)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ret 
+
+  METHOD Void vfJ9aN67j()
+      br.s IL_0007: nop
+      call 
+      nop 
+      newobj GetConfigure::.ctor
+      stloc.0 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      initobj AppConfig
+      ldarg.0 
+      ldloc.0 
+      ldc.i4.1 
+      callvirt GetConfigure::ReadConfig
+      stfld Form1_Main::l9CiXJCJO
+      ldc.i4 1804053834
+      ldc.i4 2132288259
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_a9b8ace30e244d0a8a8e3c660a3ab1a4
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldarg.0 
+      call Form1_Main::CNmAnpkwk
+      nop 
+      ldarg.0 
+      call Form1_Main::LoadFilterKeys
+      nop 
+      ret 
+
+  METHOD Boolean PjMrBdqSf()
+      br.s IL_0007: nop
+      call 
+      nop 
+      newobj ProcessStartInfo::.ctor
+      stloc.0 
+      newobj GetConfigure::.ctor
+      stloc.1 
+      ldloc.1 
+      ldc.i4.0 
+      callvirt GetConfigure::ReadConfig
+      stloc.2 
+      ldc.i4.0 
+      stloc.3 
+      ldloc.2 
+      ldfld AppConfig::ModeUjian
+      ldc.i4 -1317414445
+      ldc.i4 -1750214684
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_abcb4675695b4c76a10f38499e59ab5c
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt String::Equals
+      stloc.s V_4
+      ldloc.s V_4
+      brfalse IL_0306: nop
+      nop 
+      call getAgent::GetSemi
+      stloc.s V_5
+      ldloc.s V_5
+      ldstr ""
+      call String::op_Equality
+      stloc.s V_6
+      ldloc.s V_6
+      brfalse IL_00ac: ldloc.s V_5
+      nop 
+      ldc.i4 2084509539
+      ldc.i4 -1276059533
+      add 
+      ldc.i4 621844072
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_832ff6bf92bc42f1b576f3be94752c4e
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stloc.s V_7
+      ldloc.s V_7
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 48
+      ldc.i4.0 
+      call MessageBox::Show
+      stloc.s V_8
+      call Application::Exit
+      nop 
+      nop 
+      br IL_0300: nop
+      ldloc.s V_5
+      ldc.i4 801290702
+      neg 
+      ldc.i4 -1965795825
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_053015b3ee3b44d88bcdf8d56ac27530
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.s V_9
+      ldloc.s V_9
+      brfalse IL_0114: ldloc.s V_5
+      nop 
+      ldc.i4 -1317414445
+      ldc.i4 -1434673397
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_60fcf68a246f430da22c2f187c8b4cc1
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stloc.s V_10
+      ldloc.s V_10
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 48
+      ldc.i4.0 
+      call MessageBox::Show
+      stloc.s V_11
+      call Application::Exit
+      nop 
+      nop 
+      br IL_0300: nop
+      ldloc.s V_5
+      ldc.i4 281043636
+      ldc.i4 451966384
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_bbf5652ac68145268339aabf58f2e7a4
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.s V_12
+      ldloc.s V_12
+      brfalse IL_017b: ldloc.s V_5
+      nop 
+      ldc.i4 -1570395005
+      ldc.i4 -1470776455
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_bbf5652ac68145268339aabf58f2e7a4
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stloc.s V_13
+      ldloc.s V_13
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 64
+      ldc.i4.0 
+      call MessageBox::Show
+      stloc.s V_14
+      call Application::Exit
+      nop 
+      nop 
+      br IL_0300: nop
+      ldloc.s V_5
+      ldc.i4 -770517062
+      ldc.i4 -953305226
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_832ff6bf92bc42f1b576f3be94752c4e
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.s V_15
+      ldloc.s V_15
+      brfalse IL_01e2: nop
+      nop 
+      ldc.i4 -1399972014
+      ldc.i4 -1985902532
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_dacb6ed28c3f486089c6ab1def10bd3c
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stloc.s V_16
+      ldloc.s V_16
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 64
+      ldc.i4.0 
+      call MessageBox::Show
+      stloc.s V_17
+      call Application::Exit
+      nop 
+      nop 
+      br IL_0300: nop
+      nop 
+      call getAgent::GetSemi
+      ldsfld encryption::passPhraseOnline
+      call encryption::EncryptedToke
+      stloc.s V_18
+      ldloc.0 
+      ldc.i4.6 
+      newarr String
+      dup 
+      ldc.i4.0 
+      ldloc.s V_18
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldc.i4 65221953
+      ldc.i4 5
+      shr 
+      ldc.i4 2005678296
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_2b39c536428a43b4a474fc24f7dfae32
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldloc.2 
+      ldfld AppConfig::ModeUjian
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldc.i4 682879163
+      ldc.i4 1590739638
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_58019b50b63a476ea06057a2db54f06a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stelem.ref 
+      dup 
+      ldc.i4.4 
+      ldloc.2 
+      ldfld AppConfig::SemiUrl
+      stelem.ref 
+      dup 
+      ldc.i4.5 
+      ldc.i4 -1399972014
+      ldc.i4 -1251964403
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_e30397021c2e4ed6b2bf5b4d827de689
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stelem.ref 
+      call String::Concat
+      callvirt ProcessStartInfo::set_Arguments
+      nop 
+      ldloc.0 
+      ldsfld GetConfigure::elekBrowserFile
+      callvirt ProcessStartInfo::set_FileName
+      nop 
+      nop 
+      ldloc.0 
+      call Process::Start
+      pop 
+      ldc.i4.1 
+      stloc.3 
+      ldc.i4 -1717749655
+      ldc.i4 -268561806
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_58019b50b63a476ea06057a2db54f06a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      nop 
+      leave IL_02ff: nop
+      stloc.s V_19
+      nop 
+      ldc.i4.0 
+      stloc.3 
+      ldc.i4 -1709162858
+      neg 
+      ldc.i4 1646004780
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_3e426832f7f94edca1142495a2d8b604
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldloc.s V_19
+      callvirt Exception::get_Message
+      stloc.s V_20
+      ldloc.s V_20
+      call GetConfigure::Writer
+      nop 
+      ldarg.0 
+      call Form::Close
+      nop 
+      nop 
+      leave IL_02ff: nop
+      nop 
+      nop 
+      br IL_04a6: ldloc.3
+      nop 
+      call getAgent::GetWorkToke
+      ldc.i4 180692145
+      ldc.i4 2091257448
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_58019b50b63a476ea06057a2db54f06a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.s V_21
+      ldloc.s V_21
+      brfalse IL_03a4: nop
+      nop 
+      ldc.i4 -1221294341
+      ldc.i4 -1325969651
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_3e426832f7f94edca1142495a2d8b604
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4 2043149327
+      ldc.i4 1656929261
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_60fcf68a246f430da22c2f187c8b4cc1
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      ldc.i4.s 64
+      call MessageBox::Show
+      pop 
+      ldc.i4 1153824747
+      ldc.i4 1683873058
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_f715fcffe3004c7aa46c8a09578d97a6
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldc.i4.0 
+      stloc.3 
+      call Application::Exit
+      nop 
+      nop 
+      br IL_04a5: nop
+      nop 
+      ldloc.0 
+      ldc.i4.5 
+      newarr String
+      dup 
+      ldc.i4.0 
+      call getAgent::GetWorkToke
+      ldsfld encryption::passPhraseOnline
+      call encryption::EncryptedToke
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldc.i4 1661042823
+      ldc.i4 715297986
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_7caab99f71784e09b81bbeacdd7796f2
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldloc.2 
+      ldfld AppConfig::ModeUjian
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldc.i4 65221953
+      ldc.i4 5
+      shr 
+      ldc.i4 244402185
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_232f69a05029492b8df250a729b6b51f
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stelem.ref 
+      dup 
+      ldc.i4.4 
+      ldloc.2 
+      ldfld AppConfig::OnlineUrl
+      stelem.ref 
+      call String::Concat
+      callvirt ProcessStartInfo::set_Arguments
+      nop 
+      ldloc.0 
+      ldsfld GetConfigure::elekBrowserFile
+      callvirt ProcessStartInfo::set_FileName
+      nop 
+      nop 
+      ldloc.0 
+      call Process::Start
+      pop 
+      ldc.i4 -1187922124
+      ldc.i4 -1848671383
+      xor 
+      ldc.i4 546269704
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_16ce9e0736c440859615439afa01a69c
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldc.i4.1 
+      stloc.3 
+      nop 
+      leave IL_04a4: nop
+      stloc.s V_22
+      nop 
+      ldc.i4.0 
+      stloc.3 
+      ldc.i4 -1740117534
+      ldc.i4 -2119599035
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_e30397021c2e4ed6b2bf5b4d827de689
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldloc.s V_22
+      callvirt Exception::get_Message
+      stloc.s V_23
+      ldloc.s V_23
+      call GetConfigure::Writer
+      nop 
+      ldarg.0 
+      call Form::Close
+      nop 
+      nop 
+      leave IL_04a4: nop
+      nop 
+      nop 
+      ldloc.3 
+      stloc.s V_24
+      br IL_04ae: ldloc.s V_24
+      ldloc.s V_24
+      ret 
+
+  METHOD Void WGFadR8yT(String  , String  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.1 
+      ldc.i4 -211926774
+      not 
+      ldc.i4 1129431012
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b56594b03db845a49b7820e60205c468
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0067: nop
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldarg.2 
+      callvirt String::ToLower
+      callvirt List`1::Contains
+      stloc.1 
+      ldloc.1 
+      brfalse IL_004f: ldarg.0
+      br IL_00c7: ret
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldarg.2 
+      callvirt String::ToLower
+      callvirt List`1::Add
+      nop 
+      nop 
+      br IL_00c7: ret
+      nop 
+      ldarg.1 
+      ldc.i4 1052350444
+      ldc.i4 881427088
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_bbf5652ac68145268339aabf58f2e7a4
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      brfalse IL_00a7: ldc.i4.1
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldarg.2 
+      callvirt String::ToLower
+      callvirt List`1::Contains
+      ldc.i4.0 
+      ceq 
+      br IL_00a8: stloc.2
+      ldc.i4.1 
+      stloc.2 
+      ldloc.2 
+      brfalse IL_00b4: ldarg.0
+      br IL_00c7: ret
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldarg.2 
+      callvirt String::ToLower
+      callvirt List`1::Remove
+      pop 
+      nop 
+      ret 
+
+  METHOD Void LoadFilterKeys()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldc.i4.0 
+      newarr j0TtGYFTKU67GQqi4wT
+      stloc.0 
+      ldc.i4.0 
+      stloc.1 
+      br IL_0264: ldloc.1
+      nop 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::FilteredKeys
+      ldloc.1 
+      ldelem.ref 
+      stloc.2 
+      ldloca.s V_0
+      ldloc.0 
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      add 
+      call Array::Resize
+      nop 
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldc.i4.0 
+      newarr cJ3msKFqRnxeQxuWxnO
+      stfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.2 
+      ldc.i4 -1949339497
+      ldc.i4 -697811728
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_df0882656164444fbd203474670ae7a7
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt String::Contains
+      stloc.3 
+      ldloc.3 
+      brfalse IL_01e0: nop
+      nop 
+      ldloc.2 
+      stloc.s V_4
+      br IL_0138: ldloc.s V_4
+      nop 
+      ldloc.s V_4
+      ldc.i4 -353658604
+      ldc.i4 5
+      shr 
+      ldc.i4 -645705723
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_abcb4675695b4c76a10f38499e59ab5c
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt String::IndexOf
+      stloc.s V_5
+      ldloc.s V_4
+      ldc.i4.0 
+      ldloc.s V_5
+      callvirt String::Substring
+      stloc.s V_6
+      ldloc.s V_4
+      ldloc.s V_4
+      ldc.i4.0 
+      ldloc.s V_5
+      ldc.i4.1 
+      add 
+      callvirt String::Substring
+      ldstr ""
+      callvirt String::Replace
+      stloc.s V_4
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldflda j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      add 
+      call Array::Resize
+      nop 
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldloc.s V_6
+      stfld cJ3msKFqRnxeQxuWxnO::gj6F4715bK
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.0 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      nop 
+      ldloc.s V_4
+      ldc.i4 -566856105
+      ldc.i4 -1178687606
+      sub 
+      ldc.i4 2060882408
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_7a69d491a4bf481fa201fbbe72541f2a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt String::Contains
+      stloc.s V_7
+      ldloc.s V_7
+      brtrue IL_0075: nop
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldflda j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      add 
+      call Array::Resize
+      nop 
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldloc.s V_4
+      stfld cJ3msKFqRnxeQxuWxnO::gj6F4715bK
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.0 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      nop 
+      br IL_0252: ldloc.0
+      nop 
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldflda j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      add 
+      call Array::Resize
+      nop 
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldloc.2 
+      stfld cJ3msKFqRnxeQxuWxnO::gj6F4715bK
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.0 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      nop 
+      ldloc.0 
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldc.i4.0 
+      stfld j0TtGYFTKU67GQqi4wT::fo8FP0jbO6
+      nop 
+      ldloc.1 
+      ldc.i4.1 
+      add 
+      stloc.1 
+      ldloc.1 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::FilteredKeys
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.s V_8
+      ldloc.s V_8
+      brtrue IL_0016: nop
+      ldarg.0 
+      ldloc.0 
+      stfld Form1_Main::BUN6oDsb4
+      ret 
+
+  METHOD Void CNmAnpkwk()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldc.i4.0 
+      newarr cJ3msKFqRnxeQxuWxnO
+      stloc.0 
+      ldc.i4.0 
+      stloc.1 
+      br IL_0061: ldloc.1
+      nop 
+      ldloca.s V_0
+      ldloc.0 
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      add 
+      call Array::Resize
+      nop 
+      ldloc.0 
+      ldloc.0 
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::SpecialKeys
+      ldloc.1 
+      ldelem.ref 
+      callvirt String::ToLower
+      callvirt String::Trim
+      stfld cJ3msKFqRnxeQxuWxnO::gj6F4715bK
+      ldloc.0 
+      ldloc.0 
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      sub 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.0 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      nop 
+      ldloc.1 
+      ldc.i4.1 
+      add 
+      stloc.1 
+      ldloc.1 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::SpecialKeys
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.2 
+      ldloc.2 
+      brtrue IL_0016: nop
+      ldarg.0 
+      ldloc.0 
+      stfld Form1_Main::DICgfiisy
+      ret 
+
+  METHOD Void RFS0cEKhQ()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      stfld Form1_Main::Xgqqdjr8Z
+      ldc.i4.1 
+      stloc.0 
+      ldc.i4.0 
+      stloc.1 
+      br IL_00ad: ldloc.1
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::DICgfiisy
+      ldloc.1 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.0 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      ldc.i4.0 
+      stloc.2 
+      br IL_0073: ldloc.2
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::DICgfiisy
+      ldloc.1 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldfld cJ3msKFqRnxeQxuWxnO::gj6F4715bK
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldloc.2 
+      callvirt List`1::get_Item
+      call String::op_Equality
+      stloc.3 
+      ldloc.3 
+      brfalse IL_006e: nop
+      ldarg.0 
+      ldfld Form1_Main::DICgfiisy
+      ldloc.1 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.1 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      nop 
+      ldloc.2 
+      ldc.i4.1 
+      add 
+      stloc.2 
+      ldloc.2 
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      callvirt List`1::get_Count
+      clt 
+      stloc.s V_4
+      ldloc.s V_4
+      brtrue IL_0032: nop
+      ldloc.0 
+      brfalse IL_00a6: ldc.i4.0
+      ldarg.0 
+      ldfld Form1_Main::DICgfiisy
+      ldloc.1 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      br IL_00a7: stloc.0
+      ldc.i4.0 
+      stloc.0 
+      nop 
+      ldloc.1 
+      ldc.i4.1 
+      add 
+      stloc.1 
+      ldloc.1 
+      ldarg.0 
+      ldfld Form1_Main::DICgfiisy
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.s V_5
+      ldloc.s V_5
+      brtrue IL_0018: nop
+      ldloc.0 
+      ldc.i4.0 
+      ceq 
+      stloc.s V_6
+      ldloc.s V_6
+      brfalse IL_00d3: ldarg.0
+      br IL_0131: ret
+      ldarg.0 
+      call Control::BringToFront
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      callvirt Control::get_Tag
+      callvirt Object::ToString
+      ldc.i4 -1709162858
+      neg 
+      ldc.i4 1893769310
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_832ff6bf92bc42f1b576f3be94752c4e
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      ldc.i4.0 
+      ceq 
+      stloc.s V_7
+      ldloc.s V_7
+      brfalse IL_011c: ldarg.0
+      br IL_0131: ret
+      ldarg.0 
+      ldc.i4.1 
+      stfld Form1_Main::Xgqqdjr8Z
+      ldarg.0 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldnull 
+      call Form1_Main::erMBXTXW7
+      nop 
+      ret 
+
+  METHOD IpdDGrFedOsma5tFr7b I7O5Q4qwS()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldloca.s V_0
+      initobj IpdDGrFedOsma5tFr7b
+      ldloca.s V_0
+      ldstr ""
+      stfld IpdDGrFedOsma5tFr7b::UVlFOd4ZBJ
+      ldloca.s V_0
+      ldc.i4.0 
+      stfld IpdDGrFedOsma5tFr7b::DlpFoGRXTZ
+      ldc.i4.0 
+      stloc.1 
+      br IL_031f: ldloc.1
+      nop 
+      ldc.i4.1 
+      stloc.2 
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldc.i4.0 
+      stfld j0TtGYFTKU67GQqi4wT::fo8FP0jbO6
+      ldc.i4.0 
+      stloc.3 
+      br IL_021c: ldloc.3
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.3 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.0 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      ldc.i4.0 
+      stloc.s V_4
+      br IL_01d6: ldloc.s V_4
+      nop 
+      ldarg.0 
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldloc.s V_4
+      callvirt List`1::get_Item
+      callvirt String::ToLower
+      ldc.i4 1804053834
+      ldc.i4 434194027
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_637e3ed536e444c78b13f277a03822de
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::ToLower
+      call String::op_Equality
+      brtrue IL_016b: ldc.i4.1
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldloc.s V_4
+      callvirt List`1::get_Item
+      callvirt String::ToLower
+      ldc.i4 1964445253
+      ldc.i4 2111577665
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_95961dbbf48d4589a7c57776ca31ed70
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::ToLower
+      call String::op_Equality
+      brtrue IL_016b: ldc.i4.1
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldloc.s V_4
+      callvirt List`1::get_Item
+      callvirt String::ToLower
+      ldc.i4 -14646246
+      ldc.i4 -42634918
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b8d902a5a5b248d7a41b2e6ff424fd8a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::ToLower
+      call String::op_Equality
+      brtrue IL_0165: ldc.i4.1
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldloc.s V_4
+      callvirt List`1::get_Item
+      callvirt String::ToLower
+      ldc.i4 436135858
+      ldc.i4 1545569645
+      sub 
+      ldc.i4 -38288677
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_dfa7f1ced813437f8a4356e5abd3ab16
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::ToLower
+      call String::op_Equality
+      br IL_0166: br IL_016c
+      ldc.i4.1 
+      br IL_016c: stfld System.Boolean ExamServices.Form1_Main::rM5QjtioV
+      ldc.i4.1 
+      stfld Form1_Main::rM5QjtioV
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.3 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldfld cJ3msKFqRnxeQxuWxnO::gj6F4715bK
+      callvirt String::ToLower
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      ldloc.s V_4
+      callvirt List`1::get_Item
+      callvirt String::ToLower
+      call String::op_Equality
+      stloc.s V_5
+      ldloc.s V_5
+      brfalse IL_01cf: nop
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.3 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldc.i4.1 
+      stfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      nop 
+      ldloc.s V_4
+      ldc.i4.1 
+      add 
+      stloc.s V_4
+      ldloc.s V_4
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      callvirt List`1::get_Count
+      clt 
+      stloc.s V_6
+      ldloc.s V_6
+      brtrue IL_006d: nop
+      ldloc.2 
+      brfalse IL_0215: ldc.i4.0
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.3 
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldfld cJ3msKFqRnxeQxuWxnO::N4QFQ6qiNr
+      br IL_0216: stloc.2
+      ldc.i4.0 
+      stloc.2 
+      nop 
+      ldloc.3 
+      ldc.i4.1 
+      add 
+      stloc.3 
+      ldloc.3 
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.s V_7
+      ldloc.s V_7
+      brtrue IL_0047: nop
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldloc.2 
+      stfld j0TtGYFTKU67GQqi4wT::fo8FP0jbO6
+      ldloc.2 
+      stloc.s V_8
+      ldloc.s V_8
+      brfalse IL_031a: nop
+      nop 
+      ldloca.s V_0
+      ldstr ""
+      stfld IpdDGrFedOsma5tFr7b::UVlFOd4ZBJ
+      ldc.i4.0 
+      stloc.s V_9
+      br IL_02db: ldloc.s V_9
+      nop 
+      ldloca.s V_0
+      ldflda IpdDGrFedOsma5tFr7b::UVlFOd4ZBJ
+      dup 
+      ldind.ref 
+      ldloc.s V_9
+      brfalse IL_029d: ldstr ""
+      ldc.i4 -2057951653
+      ldc.i4 -1495667001
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_520098cedb1a45709e913928c81430e2
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      br IL_02a2: call System.String System.String::Concat(System.String,System.String)
+      ldstr ""
+      call String::Concat
+      stind.ref 
+      ldloca.s V_0
+      ldflda IpdDGrFedOsma5tFr7b::UVlFOd4ZBJ
+      dup 
+      ldind.ref 
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldloc.s V_9
+      ldelema cJ3msKFqRnxeQxuWxnO
+      ldfld cJ3msKFqRnxeQxuWxnO::gj6F4715bK
+      call String::Concat
+      stind.ref 
+      nop 
+      ldloc.s V_9
+      ldc.i4.1 
+      add 
+      stloc.s V_9
+      ldloc.s V_9
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldfld j0TtGYFTKU67GQqi4wT::iSkFKJKlo2
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.s V_10
+      ldloc.s V_10
+      brtrue IL_026c: nop
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldloc.1 
+      ldelema j0TtGYFTKU67GQqi4wT
+      ldc.i4.0 
+      stfld j0TtGYFTKU67GQqi4wT::fo8FP0jbO6
+      ldloca.s V_0
+      ldc.i4.1 
+      stfld IpdDGrFedOsma5tFr7b::DlpFoGRXTZ
+      br IL_0333: ldloc.0
+      nop 
+      ldloc.1 
+      ldc.i4.1 
+      add 
+      stloc.1 
+      ldloc.1 
+      ldarg.0 
+      ldfld Form1_Main::BUN6oDsb4
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.s V_11
+      ldloc.s V_11
+      brtrue IL_002b: nop
+      ldloc.0 
+      stloc.s V_12
+      br IL_033b: ldloc.s V_12
+      ldloc.s V_12
+      ret 
+
+  METHOD Void Pk0UhXj6T(Object  , KeyEventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 1642867941
+      ldc.i4 1320418490
+      xor 
+      ldc.i4 919112771
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_a41b83e1a14d4fabb4d025f7937fc1aa
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldarg.2 
+      callvirt KeyEventArgs::get_KeyCode
+      stloc.1 
+      ldloca.s V_1
+      constrained. Keys
+      callvirt Object::ToString
+      call Form1_Main::WGFadR8yT
+      nop 
+      ldarg.0 
+      call Form1_Main::I7O5Q4qwS
+      stloc.0 
+      ldarg.2 
+      ldarg.0 
+      ldloc.0 
+      ldfld IpdDGrFedOsma5tFr7b::DlpFoGRXTZ
+      dup 
+      stloc.2 
+      stfld Form1_Main::r2W4mS9Ja
+      ldloc.2 
+      callvirt KeyEventArgs::set_Handled
+      nop 
+      ldarg.2 
+      callvirt KeyEventArgs::get_Handled
+      ldc.i4.0 
+      ceq 
+      stloc.3 
+      ldloc.3 
+      brfalse IL_0076: nop
+      br IL_0094: ret
+      nop 
+      nop 
+      nop 
+      leave IL_0094: ret
+      stloc.s V_4
+      nop 
+      ldloc.s V_4
+      callvirt Exception::get_Message
+      call GetConfigure::Writer
+      nop 
+      nop 
+      leave IL_0094: ret
+      ret 
+
+  METHOD Void GOdvmdH0g(Object  , KeyEventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.2 
+      ldarg.0 
+      ldfld Form1_Main::r2W4mS9Ja
+      callvirt KeyEventArgs::set_Handled
+      nop 
+      ldarg.0 
+      call Form1_Main::RFS0cEKhQ
+      nop 
+      ldarg.0 
+      ldc.i4 -757132505
+      neg 
+      ldc.i4 1341575737
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_9916d941967e40f69bd0e5ad8a8eccc5
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldarg.2 
+      callvirt KeyEventArgs::get_KeyCode
+      stloc.0 
+      ldloca.s V_0
+      constrained. Keys
+      callvirt Object::ToString
+      call Form1_Main::WGFadR8yT
+      nop 
+      ret 
+
+  METHOD Void oErNKrrRS(Object  , MouseEventExtArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.2 
+      callvirt MouseEventArgs::get_Button
+      ldc.i4 1048576
+      bne.un IL_0026: ldc.i4.1
+      ldarg.0 
+      ldfld Form1_Main::rM5QjtioV
+      ldc.i4.0 
+      ceq 
+      br IL_0027: stloc.0
+      ldc.i4.1 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0033: ldarg.2
+      br IL_0055: ret
+      ldarg.2 
+      ldc.i4.1 
+      callvirt MouseEventExtArgs::set_Handled
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::C5mo3WScR
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::C5mo3WScR
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      ret 
+
+  METHOD Void FpIMf60cP()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldftn Form1_Main::Pk0UhXj6T
+      newobj KeyEventHandler::.ctor
+      call HookManager::add_KeyDown
+      nop 
+      ldarg.0 
+      ldftn Form1_Main::GOdvmdH0g
+      newobj KeyEventHandler::.ctor
+      call HookManager::add_KeyUp
+      nop 
+      ldarg.0 
+      ldftn Form1_Main::oErNKrrRS
+      newobj EventHandler`1::.ctor
+      call HookManager::add_MouseClickExt
+      nop 
+      ret 
+
+  METHOD Void Unhooks()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldftn Form1_Main::Pk0UhXj6T
+      newobj KeyEventHandler::.ctor
+      call HookManager::remove_KeyDown
+      nop 
+      ldarg.0 
+      ldftn Form1_Main::GOdvmdH0g
+      newobj KeyEventHandler::.ctor
+      call HookManager::remove_KeyUp
+      nop 
+      ldarg.0 
+      ldftn Form1_Main::oErNKrrRS
+      newobj EventHandler`1::.ctor
+      call HookManager::remove_MouseClickExt
+      nop 
+      ret 
+
+  METHOD Void nP9tL1ttl()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::LockKeys
+      callvirt Object::ToString
+      callvirt String::Trim
+      ldc.i4 1800996923
+      ldc.i4 724675561
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_dfa7f1ced813437f8a4356e5abd3ab16
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.0 
+      ldloc.0 
+      brfalse IL_004b: ldc.i4 -1054289291
+      ldarg.0 
+      call Form1_Main::FpIMf60cP
+      nop 
+      ldc.i4 -1054289291
+      ldc.i4 1
+      shr 
+      ldc.i4 -936002293
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b88edb3d4a5443f59f2c94bbb42b1c5d
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::aBneIGAxF
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      ret 
+
+  METHOD Void uHhZBZ2cR()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::LockKeys
+      callvirt Object::ToString
+      callvirt String::Trim
+      ldc.i4 -1548741411
+      neg 
+      ldc.i4 359473119
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_0d5e44dda34940c58decd68f393004d3
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.0 
+      ldloc.0 
+      brfalse IL_004c: ldarg.0
+      ldarg.0 
+      call Form1_Main::Unhooks
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::aBneIGAxF
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::kM9S5SL1g
+      callvirt List`1::Clear
+      nop 
+      ret 
+
+  METHOD Void kDHpCEN1b(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      stfld Form1_Main::rM5QjtioV
+      ldarg.0 
+      call Form1_Main::xdfExTDrL
+      nop 
+      ret 
+
+  METHOD Void erMBXTXW7(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      callvirt Control::get_Tag
+      callvirt Object::ToString
+      ldc.i4 1661042823
+      ldc.i4 1734281665
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_571f5ae64d1545db86d72e5b8f2d3bf5
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0128: nop
+      nop 
+      ldarg.0 
+      call Form1_Main::vfJ9aN67j
+      nop 
+      ldarg.0 
+      call Form1_Main::PjMrBdqSf
+      ldc.i4.0 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_008a: nop
+      nop 
+      ldc.i4 -1537733922
+      ldc.i4 -684854467
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_e1684c59b1934313ad61f4823737c76c
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      stloc.2 
+      ldloc.2 
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 48
+      ldc.i4.0 
+      call MessageBox::Show
+      pop 
+      nop 
+      br IL_0122: nop
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4 1149963041
+      ldc.i4 1728364763
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_520098cedb1a45709e913928c81430e2
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Tag
+      nop 
+      ldarg.0 
+      call Form1_Main::nP9tL1ttl
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::rnCOy0lm7
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::ModeUjian
+      ldc.i4 2084509539
+      ldc.i4 -1276059533
+      add 
+      ldc.i4 385612257
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_abcb4675695b4c76a10f38499e59ab5c
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt String::Equals
+      stloc.3 
+      ldloc.3 
+      brfalse IL_0112: nop
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::liDVqyCtI
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      nop 
+      br IL_0121: nop
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::liDVqyCtI
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      nop 
+      nop 
+      nop 
+      br IL_0209: ret
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::Xgqqdjr8Z
+      ldc.i4.0 
+      ceq 
+      stloc.s V_5
+      ldloc.s V_5
+      brfalse IL_0170: nop
+      nop 
+      ldarg.0 
+      call Form1_Main::IjrYQStyO
+      ldfld IsPasswordValid_result::valid
+      stloc.s V_4
+      ldc.i4 -1170942232
+      ldc.i4 -1100324902
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_571f5ae64d1545db86d72e5b8f2d3bf5
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      nop 
+      br IL_01a8: ldloc.s V_4
+      nop 
+      ldc.i4.1 
+      stloc.s V_4
+      ldarg.0 
+      ldfld Form1_Main::rfcTphY1y
+      ldc.i4.0 
+      ceq 
+      stloc.s V_6
+      ldloc.s V_6
+      brfalse IL_01a7: nop
+      ldc.i4 1964445253
+      ldc.i4 1296368669
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_c8c366b251c54560831a0933d492065a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      nop 
+      ldloc.s V_4
+      ldc.i4.0 
+      ceq 
+      stloc.s V_7
+      ldloc.s V_7
+      brfalse IL_01bb: ldarg.0
+      br IL_0209: ret
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4 45673799
+      ldc.i4 3
+      shr 
+      ldc.i4 805955653
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_5d981937aa044de6aefa8c62b60f0102
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Tag
+      nop 
+      ldarg.0 
+      call Form1_Main::uHhZBZ2cR
+      nop 
+      call GetConfigure::KillAllBrowser
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::rnCOy0lm7
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      call Application::Exit
+      nop 
+      nop 
+      ret 
+
+  METHOD Void LHG81KFpW(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      nop 
+      call Process::GetProcesses
+      stloc.0 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::BrowserFilename
+      callvirt String::ToLower
+      ldc.i4 -757132505
+      neg 
+      ldc.i4 941590997
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_832ff6bf92bc42f1b576f3be94752c4e
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldstr ""
+      callvirt String::Replace
+      callvirt String::ToLower
+      callvirt String::Trim
+      stloc.1 
+      nop 
+      ldloc.0 
+      stloc.2 
+      ldc.i4.0 
+      stloc.3 
+      br IL_00f6: ldloc.3
+      ldloc.2 
+      ldloc.3 
+      ldelem.ref 
+      stloc.s V_4
+      nop 
+      ldloc.s V_4
+      callvirt Process::get_ProcessName
+      callvirt String::ToLower
+      callvirt String::Trim
+      stloc.s V_5
+      ldloc.s V_5
+      ldloc.1 
+      call String::op_Inequality
+      stloc.s V_6
+      ldloc.s V_6
+      brfalse IL_00f1: nop
+      nop 
+      ldc.i4.0 
+      stloc.s V_7
+      br IL_00d6: ldloc.s V_7
+      nop 
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::Application
+      ldloc.s V_7
+      ldelem.ref 
+      stloc.s V_8
+      ldloc.s V_5
+      ldloc.s V_8
+      call String::op_Equality
+      brfalse IL_00bb: ldc.i4.0
+      ldloc.s V_8
+      call String::IsNullOrEmpty
+      ldc.i4.0 
+      ceq 
+      br IL_00bc: stloc.s V_9
+      ldc.i4.0 
+      stloc.s V_9
+      ldloc.s V_9
+      brfalse IL_00cf: nop
+      nop 
+      ldloc.s V_4
+      callvirt Process::Kill
+      nop 
+      nop 
+      nop 
+      ldloc.s V_7
+      ldc.i4.1 
+      add 
+      stloc.s V_7
+      ldloc.s V_7
+      ldarg.0 
+      ldflda Form1_Main::l9CiXJCJO
+      ldfld AppConfig::Application
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.s V_10
+      ldloc.s V_10
+      brtrue IL_008d: nop
+      nop 
+      nop 
+      ldloc.3 
+      ldc.i4.1 
+      add 
+      stloc.3 
+      ldloc.3 
+      ldloc.2 
+      ldlen 
+      conv.i4 
+      blt IL_005a: ldloc.2
+      nop 
+      leave IL_010d: ret
+      pop 
+      nop 
+      nop 
+      leave IL_010d: ret
+      ret 
+
+  METHOD Void ktgJ3C7mm(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      stfld Form1_Main::rfcTphY1y
+      ldarg.0 
+      ldfld Form1_Main::liDVqyCtI
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::kS0cFDell
+      call String::IsNullOrEmpty
+      ldc.i4.0 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0196: ldarg.0
+      nop 
+      call Dns::GetHostName
+      call Dns::GetHostByName
+      callvirt IPHostEntry::get_AddressList
+      stloc.1 
+      ldc.i4.0 
+      stloc.2 
+      ldc.i4.0 
+      stloc.3 
+      br IL_0074: ldloc.3
+      nop 
+      ldloc.1 
+      ldloc.3 
+      ldelem.ref 
+      callvirt Object::ToString
+      ldarg.0 
+      ldfld Form1_Main::kS0cFDell
+      call String::op_Equality
+      stloc.2 
+      ldloc.2 
+      stloc.s V_4
+      ldloc.s V_4
+      brfalse IL_006f: nop
+      br IL_0083: ldloc.2
+      nop 
+      ldloc.3 
+      ldc.i4.1 
+      add 
+      stloc.3 
+      ldloc.3 
+      ldloc.1 
+      ldlen 
+      conv.i4 
+      clt 
+      stloc.s V_5
+      ldloc.s V_5
+      brtrue IL_004b: nop
+      ldloc.2 
+      ldc.i4.0 
+      ceq 
+      stloc.s V_6
+      ldloc.s V_6
+      brfalse IL_018e: ldarg.0
+      nop 
+      ldarg.0 
+      ldc.i4 -1458568099
+      ldc.i4 4
+      shr 
+      ldc.i4 -652292101
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_520098cedb1a45709e913928c81430e2
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call Form1_Main::SetMessage
+      nop 
+      ldc.i4 1800996923
+      ldc.i4 1206550804
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_6874963f64554f6c9453fb77ae802833
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      callvirt Control::get_Tag
+      callvirt Object::ToString
+      ldc.i4 1080919025
+      ldc.i4 1110996355
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b8d902a5a5b248d7a41b2e6ff424fd8a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call String::op_Equality
+      stloc.s V_7
+      ldloc.s V_7
+      brfalse IL_0188: nop
+      nop 
+      call GetConfigure::KillAllBrowser
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::OPWKoLhJR
+      ldc.i4.0 
+      ceq 
+      stloc.s V_8
+      ldloc.s V_8
+      brfalse IL_016b: ldarg.0
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      stfld Form1_Main::OPWKoLhJR
+      ldc.i4 866801908
+      ldc.i4 1593380776
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_4df86ad362a54b16aff9302ae0cfd00b
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldstr ""
+      ldc.i4.0 
+      ldc.i4.s 64
+      ldc.i4.0 
+      call MessageBox::Show
+      stloc.s V_9
+      ldc.i4 1000
+      call Thread::Sleep
+      nop 
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      stfld Form1_Main::Xgqqdjr8Z
+      ldarg.0 
+      ldc.i4.1 
+      stfld Form1_Main::rfcTphY1y
+      ldarg.0 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldnull 
+      call Form1_Main::erMBXTXW7
+      nop 
+      nop 
+      nop 
+      br IL_0195: nop
+      ldarg.0 
+      ldc.i4.0 
+      stfld Form1_Main::OPWKoLhJR
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::liDVqyCtI
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      ret 
+
+  METHOD Void jg9hvILLx(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      stfld Form1_Main::rM5QjtioV
+      ldarg.0 
+      ldfld Form1_Main::C5mo3WScR
+      ldc.i4.0 
+      callvirt Timer::set_Enabled
+      nop 
+      ret 
+
+  METHOD Void WuwHpoEEQ(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::jxWbZGNp6
+      callvirt BackgroundWorker::get_IsBusy
+      ldc.i4.0 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0030: nop
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::jxWbZGNp6
+      callvirt BackgroundWorker::RunWorkerAsync
+      nop 
+      nop 
+      br IL_0032: ret
+      nop 
+      nop 
+      ret 
+
+  METHOD Void X1vye1wky(Object  , DoWorkEventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldc.i4 23724909
+      ldc.i4 -195628663
+      add 
+      ldc.i4 -846004532
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_c8c366b251c54560831a0933d492065a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call Process::GetProcessesByName
+      stloc.0 
+      ldloc.0 
+      ldlen 
+      conv.i4 
+      ldc.i4.1 
+      clt 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_007e: ret
+      nop 
+      ldc.i4 364525276
+      neg 
+      ldc.i4 -206873961
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_e30397021c2e4ed6b2bf5b4d827de689
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call GetConfigure::Writer
+      nop 
+      ldarg.0 
+      call Form1_Main::uHhZBZ2cR
+      nop 
+      call GetConfigure::KillAllBrowser
+      nop 
+      ldc.i4 1000
+      call Thread::Sleep
+      nop 
+      call Application::Exit
+      nop 
+      nop 
+      ret 
+
+  METHOD Void Dispose(Boolean disposing)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.1 
+      brfalse IL_001c: ldc.i4.0
+      ldarg.0 
+      ldfld Form1_Main::VvEI6ajph
+      ldnull 
+      cgt.un 
+      br IL_001d: stloc.0
+      ldc.i4.0 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0032: ldarg.0
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::VvEI6ajph
+      callvirt IDisposable::Dispose
+      nop 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      call Form::Dispose
+      nop 
+      ret 
+
+  METHOD Void f7vjJEp0k()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      newobj Container::.ctor
+      stfld Form1_Main::VvEI6ajph
+      ldarg.0 
+      ldarg.0 
+      ldfld Form1_Main::VvEI6ajph
+      newobj Timer::.ctor
+      stfld Form1_Main::aBneIGAxF
+      ldarg.0 
+      ldarg.0 
+      ldfld Form1_Main::VvEI6ajph
+      newobj Timer::.ctor
+      stfld Form1_Main::C5mo3WScR
+      ldarg.0 
+      ldarg.0 
+      ldfld Form1_Main::VvEI6ajph
+      newobj Timer::.ctor
+      stfld Form1_Main::rnCOy0lm7
+      ldarg.0 
+      ldarg.0 
+      ldfld Form1_Main::VvEI6ajph
+      newobj Timer::.ctor
+      stfld Form1_Main::liDVqyCtI
+      ldarg.0 
+      newobj BackgroundWorker::.ctor
+      stfld Form1_Main::jxWbZGNp6
+      ldarg.0 
+      newobj Button::.ctor
+      stfld Form1_Main::uGnPw5gso
+      ldarg.0 
+      call Control::SuspendLayout
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::aBneIGAxF
+      ldc.i4 500
+      callvirt Timer::set_Interval
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::aBneIGAxF
+      ldarg.0 
+      ldftn Form1_Main::LHG81KFpW
+      newobj EventHandler::.ctor
+      callvirt Timer::add_Tick
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::C5mo3WScR
+      ldc.i4.1 
+      callvirt Timer::set_Enabled
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::C5mo3WScR
+      ldc.i4 2000
+      callvirt Timer::set_Interval
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::C5mo3WScR
+      ldarg.0 
+      ldftn Form1_Main::jg9hvILLx
+      newobj EventHandler::.ctor
+      callvirt Timer::add_Tick
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::liDVqyCtI
+      ldc.i4 1000
+      callvirt Timer::set_Interval
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::liDVqyCtI
+      ldarg.0 
+      ldftn Form1_Main::ktgJ3C7mm
+      newobj EventHandler::.ctor
+      callvirt Timer::add_Tick
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::rnCOy0lm7
+      ldc.i4 1000
+      callvirt Timer::set_Interval
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::rnCOy0lm7
+      ldarg.0 
+      ldftn Form1_Main::WuwHpoEEQ
+      newobj EventHandler::.ctor
+      callvirt Timer::add_Tick
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::jxWbZGNp6
+      ldarg.0 
+      ldftn Form1_Main::X1vye1wky
+      newobj DoWorkEventHandler::.ctor
+      callvirt BackgroundWorker::add_DoWork
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4.s 23
+      ldc.i4.s 39
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4 36070032
+      ldc.i4 1436857883
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_5ef84580349147d5a0ea529f8ded7fdd
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4.s 10
+      ldc.i4.s 10
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4.s 9
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4 1804053834
+      ldc.i4 1009127208
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_366a139e88f04e1cbfaba72ec3a71921
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Tag
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4 1021789959
+      ldc.i4 1250192304
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_58019b50b63a476ea06057a2db54f06a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldc.i4.1 
+      callvirt ButtonBase::set_UseVisualStyleBackColor
+      nop 
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      ldarg.0 
+      ldftn Form1_Main::erMBXTXW7
+      newobj EventHandler::.ctor
+      callvirt Control::add_Click
+      nop 
+      ldarg.0 
+      ldc.r4 6
+      ldc.r4 13
+      newobj SizeF::.ctor
+      call ContainerControl::set_AutoScaleDimensions
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      call ContainerControl::set_AutoScaleMode
+      nop 
+      ldarg.0 
+      ldc.i4.s 20
+      ldc.i4.s 20
+      newobj Size::.ctor
+      call Form::set_ClientSize
+      nop 
+      ldarg.0 
+      call Control::get_Controls
+      ldarg.0 
+      ldfld Form1_Main::uGnPw5gso
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldc.i4 737531388
+      ldc.i4 1885782524
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_7e7a1cd262b94d128bd8e406d09652e9
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call Control::set_Name
+      nop 
+      ldarg.0 
+      ldc.i4 746057210
+      neg 
+      ldc.i4 -217039113
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_f715fcffe3004c7aa46c8a09578d97a6
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldarg.0 
+      ldftn Form1_Main::kDHpCEN1b
+      newobj EventHandler::.ctor
+      call Form::add_Load
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      call Control::ResumeLayout
+      nop 
+      ret 
+
+========================================
+TYPE ExamServices.Form_Password
+========================================
+  FIELD IContainer AyYkysFqw
+  FIELD Label QoYnVoryy
+  FIELD TextBox Jaqzxn0Xi
+  FIELD Button eN4FD7qnsG
+
+  METHOD Void .ctor()
+      br.s IL_0007: call System.Void PKf6wKmO0NHVrXhHEoV.dJLOPAmoTijWxbGSvCs::urY36js4go()
+      call 
+      call dJLOPAmoTijWxbGSvCs::urY36js4go
+      ldarg.0 
+      call Form::.ctor
+      nop 
+      nop 
+      ldarg.0 
+      call Form_Password::i1bdosZcR
+      nop 
+      ret 
+
+  METHOD IsPasswordValid_result IsPasswordValid()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldloca.s V_0
+      initobj IsPasswordValid_result
+      newobj GetConfigure::.ctor
+      stloc.1 
+      ldloc.1 
+      ldc.i4.0 
+      callvirt GetConfigure::ReadConfig
+      stloc.2 
+      ldarg.0 
+      ldfld Form_Password::Jaqzxn0Xi
+      callvirt Control::get_Text
+      callvirt String::Trim
+      stloc.3 
+      ldc.i4 -1570395005
+      ldc.i4 -4004076
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_df0882656164444fbd203474670ae7a7
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call encryption::ReadBinFile
+      ldsfld encryption::passPhrase
+      call encryption::DecryptString
+      stloc.s V_4
+      ldloc.3 
+      ldsfld encryption::passPhrase
+      call encryption::EncryptString
+      stloc.s V_5
+      ldloca.s V_0
+      ldloc.2 
+      ldfld AppConfig::Password
+      ldloc.3 
+      call String::op_Equality
+      brtrue IL_0081: ldc.i4.1
+      ldc.i4.0 
+      br IL_0082: brtrue IL_00a5
+      ldc.i4.1 
+      brtrue IL_00a5: ldloc.3
+      ldloc.2 
+      ldfld AppConfig::PasswordSetUrl
+      ldloc.s V_5
+      call String::op_Equality
+      brtrue IL_009f: ldc.i4.1
+      ldc.i4.0 
+      br IL_00a0: brfalse IL_00b3
+      ldc.i4.1 
+      brfalse IL_00b3: ldc.i4.0
+      ldloc.3 
+      call String::IsNullOrEmpty
+      ldc.i4.0 
+      ceq 
+      br IL_00b4: stfld System.Boolean ExamServices.Form_Password/IsPasswordValid_result::valid
+      ldc.i4.0 
+      stfld IsPasswordValid_result::valid
+      ldloca.s V_0
+      ldloc.2 
+      ldfld AppConfig::PasswordSetUrl
+      ldloc.s V_5
+      call String::op_Equality
+      stfld IsPasswordValid_result::isadmin
+      ldloc.0 
+      stloc.s V_6
+      br IL_00d5: ldloc.s V_6
+      ldloc.s V_6
+      ret 
+
+  METHOD Void yg8WP5OqO(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      call Form::Close
+      nop 
+      ret 
+
+  METHOD Void J32sGtEsT(Object  , EventArgs  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ret 
+
+  METHOD Void Dispose(Boolean disposing)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.1 
+      brfalse IL_001c: ldc.i4.0
+      ldarg.0 
+      ldfld Form_Password::AyYkysFqw
+      ldnull 
+      cgt.un 
+      br IL_001d: stloc.0
+      ldc.i4.0 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0030: ldarg.0
+      ldarg.0 
+      ldfld Form_Password::AyYkysFqw
+      callvirt IDisposable::Dispose
+      nop 
+      ldarg.0 
+      ldarg.1 
+      call Form::Dispose
+      nop 
+      ret 
+
+  METHOD Void i1bdosZcR()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldtoken Form_Password
+      call Type::GetTypeFromHandle
+      newobj ComponentResourceManager::.ctor
+      stloc.0 
+      ldarg.0 
+      newobj Label::.ctor
+      stfld Form_Password::QoYnVoryy
+      ldarg.0 
+      newobj TextBox::.ctor
+      stfld Form_Password::Jaqzxn0Xi
+      ldarg.0 
+      newobj Button::.ctor
+      stfld Form_Password::eN4FD7qnsG
+      ldarg.0 
+      call Control::SuspendLayout
+      nop 
+      ldarg.0 
+      ldfld Form_Password::QoYnVoryy
+      ldc.i4.1 
+      callvirt Control::set_AutoSize
+      nop 
+      ldarg.0 
+      ldfld Form_Password::QoYnVoryy
+      ldc.i4.s 13
+      ldc.i4.s 13
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_Password::QoYnVoryy
+      ldc.i4 -1956818014
+      ldc.i4 -1466221966
+      sub 
+      ldc.i4 -104375356
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_60fcf68a246f430da22c2f187c8b4cc1
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_Password::QoYnVoryy
+      ldc.i4.s 53
+      ldc.i4.s 13
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_Password::QoYnVoryy
+      ldc.i4.0 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_Password::QoYnVoryy
+      ldc.i4 -612816198
+      ldc.i4 -1046830634
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_98a6ba18323a467e9485f79ea882d762
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldfld Form_Password::Jaqzxn0Xi
+      ldc.i4.s 72
+      ldc.i4.s 10
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_Password::Jaqzxn0Xi
+      ldc.i4 1661042823
+      ldc.i4 2006846436
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_a9b8ace30e244d0a8a8e3c660a3ab1a4
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_Password::Jaqzxn0Xi
+      ldc.i4.s 42
+      callvirt TextBox::set_PasswordChar
+      nop 
+      ldarg.0 
+      ldfld Form_Password::Jaqzxn0Xi
+      ldc.i4.s 119
+      ldc.i4.s 20
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_Password::Jaqzxn0Xi
+      ldc.i4.1 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldc.i4.1 
+      callvirt Button::set_DialogResult
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldc.i4 197
+      ldc.i4.8 
+      newobj Point::.ctor
+      callvirt Control::set_Location
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldc.i4 980400723
+      ldc.i4 1973402828
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b56594b03db845a49b7820e60205c468
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Name
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldc.i4.s 75
+      ldc.i4.s 23
+      newobj Size::.ctor
+      callvirt Control::set_Size
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldc.i4.2 
+      callvirt Control::set_TabIndex
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldc.i4 -108976336
+      ldc.i4 -1261511698
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_9dfc7d7488034a68920972daecc9d2a2
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldc.i4.1 
+      callvirt ButtonBase::set_UseVisualStyleBackColor
+      nop 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      ldarg.0 
+      ldftn Form_Password::yg8WP5OqO
+      newobj EventHandler::.ctor
+      callvirt Control::add_Click
+      nop 
+      ldarg.0 
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      call Form::set_AcceptButton
+      nop 
+      ldarg.0 
+      ldc.r4 6
+      ldc.r4 13
+      newobj SizeF::.ctor
+      call ContainerControl::set_AutoScaleDimensions
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      call ContainerControl::set_AutoScaleMode
+      nop 
+      ldarg.0 
+      ldc.i4 284
+      ldc.i4.s 45
+      newobj Size::.ctor
+      call Form::set_ClientSize
+      nop 
+      ldarg.0 
+      call Control::get_Controls
+      ldarg.0 
+      ldfld Form_Password::eN4FD7qnsG
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      call Control::get_Controls
+      ldarg.0 
+      ldfld Form_Password::Jaqzxn0Xi
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      call Control::get_Controls
+      ldarg.0 
+      ldfld Form_Password::QoYnVoryy
+      callvirt ControlCollection::Add
+      nop 
+      ldarg.0 
+      ldc.i4.3 
+      call Form::set_FormBorderStyle
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      call Form::set_MaximizeBox
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      call Form::set_MinimizeBox
+      nop 
+      ldarg.0 
+      ldc.i4 -1524922519
+      ldc.i4 1526640451
+      add 
+      ldc.i4 1340747979
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b56594b03db845a49b7820e60205c468
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call Control::set_Name
+      nop 
+      ldarg.0 
+      ldc.i4.4 
+      call Form::set_StartPosition
+      nop 
+      ldarg.0 
+      ldc.i4 23724909
+      ldc.i4 -195628663
+      add 
+      ldc.i4 -1604179935
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_62460421384f4a65a8c8500119b2c6af
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      callvirt Control::set_Text
+      nop 
+      ldarg.0 
+      ldarg.0 
+      ldftn Form_Password::J32sGtEsT
+      newobj EventHandler::.ctor
+      call Form::add_Load
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      call Control::ResumeLayout
+      nop 
+      ldarg.0 
+      call Control::PerformLayout
+      nop 
+      ret 
+
+========================================
+TYPE ExamServices.Arthur_WorkstationService.WorkstationService
+========================================
+  FIELD SendOrPostCallback s2iFMAZkHT
+  FIELD SendOrPostCallback MRFFt5yBCs
+  FIELD SendOrPostCallback So9FZwntl2
+  FIELD SendOrPostCallback SYxFp7SgCL
+  FIELD SendOrPostCallback z9kFBIXg4M
+  FIELD SendOrPostCallback nAGF8myWh9
+  FIELD SendOrPostCallback NZUFJW8xkX
+  FIELD SendOrPostCallback WsKFhKu5MI
+  FIELD Boolean k2JFHmpkEA
+  FIELD SubmitWorkstationV3CompletedEventHandler SUAFyYck8K
+  FIELD SubmitWorkstationCompletedEventHandler X2MFj1jgdu
+  FIELD UnSubmitWorkstationCompletedEventHandler MGOFiCXA6U
+  FIELD IsSubmitedRegisteredCompletedEventHandler trRFSt1XRH
+  FIELD PesertaTesBeatCompletedEventHandler Y04F6V9W8B
+  FIELD GetDataLove1ServerCompletedEventHandler bTEFg0Z9yQ
+  FIELD GetDataLove2ServerCompletedEventHandler JWJF1OWD3H
+  FIELD GetDataLove3ServerCompletedEventHandler dLaFcyWyX0
+
+  METHOD String get_Url()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      call WebClientProtocol::get_Url
+      stloc.0 
+      br IL_0014: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void set_Url(String value)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.0 
+      call WebClientProtocol::get_Url
+      call WorkstationService::JQQFNeJo8I
+      brfalse IL_0033: ldc.i4.0
+      ldarg.0 
+      ldfld WorkstationService::k2JFHmpkEA
+      brtrue IL_0033: ldc.i4.0
+      ldarg.0 
+      ldarg.1 
+      call WorkstationService::JQQFNeJo8I
+      ldc.i4.0 
+      ceq 
+      br IL_0034: stloc.0
+      ldc.i4.0 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0043: ldarg.0
+      ldarg.0 
+      ldc.i4.0 
+      call WebClientProtocol::set_UseDefaultCredentials
+      nop 
+      ldarg.0 
+      ldarg.1 
+      call WebClientProtocol::set_Url
+      nop 
+      ret 
+
+  METHOD Boolean get_UseDefaultCredentials()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      call WebClientProtocol::get_UseDefaultCredentials
+      stloc.0 
+      br IL_0014: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void set_UseDefaultCredentials(Boolean value)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      call WebClientProtocol::set_UseDefaultCredentials
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      stfld WorkstationService::k2JFHmpkEA
+      ret 
+
+  METHOD Void add_SubmitWorkstationV3Completed(SubmitWorkstationV3CompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::SUAFyYck8K
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass SubmitWorkstationV3CompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::SUAFyYck8K
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_SubmitWorkstationV3Completed(SubmitWorkstationV3CompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::SUAFyYck8K
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass SubmitWorkstationV3CompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::SUAFyYck8K
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void add_SubmitWorkstationCompleted(SubmitWorkstationCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::X2MFj1jgdu
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass SubmitWorkstationCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::X2MFj1jgdu
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_SubmitWorkstationCompleted(SubmitWorkstationCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::X2MFj1jgdu
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass SubmitWorkstationCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::X2MFj1jgdu
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void add_UnSubmitWorkstationCompleted(UnSubmitWorkstationCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::MGOFiCXA6U
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass UnSubmitWorkstationCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::MGOFiCXA6U
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_UnSubmitWorkstationCompleted(UnSubmitWorkstationCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::MGOFiCXA6U
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass UnSubmitWorkstationCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::MGOFiCXA6U
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void add_IsSubmitedRegisteredCompleted(IsSubmitedRegisteredCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::trRFSt1XRH
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass IsSubmitedRegisteredCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::trRFSt1XRH
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_IsSubmitedRegisteredCompleted(IsSubmitedRegisteredCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::trRFSt1XRH
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass IsSubmitedRegisteredCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::trRFSt1XRH
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void add_PesertaTesBeatCompleted(PesertaTesBeatCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::Y04F6V9W8B
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass PesertaTesBeatCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::Y04F6V9W8B
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_PesertaTesBeatCompleted(PesertaTesBeatCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::Y04F6V9W8B
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass PesertaTesBeatCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::Y04F6V9W8B
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void add_GetDataLove1ServerCompleted(GetDataLove1ServerCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::bTEFg0Z9yQ
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass GetDataLove1ServerCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::bTEFg0Z9yQ
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_GetDataLove1ServerCompleted(GetDataLove1ServerCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::bTEFg0Z9yQ
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass GetDataLove1ServerCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::bTEFg0Z9yQ
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void add_GetDataLove2ServerCompleted(GetDataLove2ServerCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::JWJF1OWD3H
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass GetDataLove2ServerCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::JWJF1OWD3H
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_GetDataLove2ServerCompleted(GetDataLove2ServerCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::JWJF1OWD3H
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass GetDataLove2ServerCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::JWJF1OWD3H
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void add_GetDataLove3ServerCompleted(GetDataLove3ServerCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::dLaFcyWyX0
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Combine
+      castclass GetDataLove3ServerCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::dLaFcyWyX0
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void remove_GetDataLove3ServerCompleted(GetDataLove3ServerCompletedEventHandler value)
+      br.s IL_0007: ldarg.0
+      call 
+      ldarg.0 
+      ldfld WorkstationService::dLaFcyWyX0
+      stloc.0 
+      ldloc.0 
+      stloc.1 
+      ldloc.1 
+      ldarg.1 
+      call Delegate::Remove
+      castclass GetDataLove3ServerCompletedEventHandler
+      stloc.2 
+      ldarg.0 
+      ldflda WorkstationService::dLaFcyWyX0
+      ldloc.2 
+      ldloc.1 
+      call Interlocked::CompareExchange
+      stloc.0 
+      ldloc.0 
+      ldloc.1 
+      bne.un IL_000e: ldloc.0
+      ret 
+
+  METHOD Void .ctor()
+      br.s IL_0007: call System.Void PKf6wKmO0NHVrXhHEoV.dJLOPAmoTijWxbGSvCs::urY36js4go()
+      call 
+      call dJLOPAmoTijWxbGSvCs::urY36js4go
+      ldarg.0 
+      call SoapHttpClientProtocol::.ctor
+      nop 
+      nop 
+      ldarg.0 
+      ldc.i4 801290702
+      neg 
+      ldc.i4 -257595311
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_f715fcffe3004c7aa46c8a09578d97a6
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      call WorkstationService::set_Url
+      nop 
+      ldarg.0 
+      ldarg.0 
+      call WorkstationService::get_Url
+      call WorkstationService::JQQFNeJo8I
+      stloc.0 
+      ldloc.0 
+      brfalse IL_0060: ldarg.0
+      nop 
+      ldarg.0 
+      ldc.i4.1 
+      call WorkstationService::set_UseDefaultCredentials
+      nop 
+      ldarg.0 
+      ldc.i4.0 
+      stfld WorkstationService::k2JFHmpkEA
+      nop 
+      br IL_0067: ret
+      ldarg.0 
+      ldc.i4.1 
+      stfld WorkstationService::k2JFHmpkEA
+      ret 
+
+  METHOD CBTResponse SubmitWorkstationV3(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 -1221294341
+      ldc.i4 -359411862
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_df0882656164444fbd203474670ae7a7
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_004d: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void SubmitWorkstationV3Async(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      ldarg.2 
+      ldarg.3 
+      ldarg.s puspendikdata4
+      ldnull 
+      call WorkstationService::SubmitWorkstationV3Async
+      nop 
+      ret 
+
+  METHOD Void SubmitWorkstationV3Async(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4, Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::s2iFMAZkHT
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::PmWF9cWEGP
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::s2iFMAZkHT
+      ldarg.0 
+      ldc.i4 -808906183
+      ldc.i4 -412564876
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_b88edb3d4a5443f59f2c94bbb42b1c5d
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      ldarg.0 
+      ldfld WorkstationService::s2iFMAZkHT
+      ldarg.s userState
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void PmWF9cWEGP(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::SUAFyYck8K
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::SUAFyYck8K
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj SubmitWorkstationV3CompletedEventArgs::.ctor
+      callvirt SubmitWorkstationV3CompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD CBTResponse SubmitWorkstation(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 1011628746
+      ldc.i4 2082774574
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_dfa7f1ced813437f8a4356e5abd3ab16
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_004d: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void SubmitWorkstationAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      ldarg.2 
+      ldarg.3 
+      ldarg.s puspendikdata4
+      ldnull 
+      call WorkstationService::SubmitWorkstationAsync
+      nop 
+      ret 
+
+  METHOD Void SubmitWorkstationAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4, Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::MRFFt5yBCs
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::whoFrO9fAK
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::MRFFt5yBCs
+      ldarg.0 
+      ldc.i4 1021789959
+      ldc.i4 1100527724
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_1f0d8575e2a64f99badd1faea28adcf3
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      ldarg.0 
+      ldfld WorkstationService::MRFFt5yBCs
+      ldarg.s userState
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void whoFrO9fAK(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::X2MFj1jgdu
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::X2MFj1jgdu
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj SubmitWorkstationCompletedEventArgs::.ctor
+      callvirt SubmitWorkstationCompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD CBTResponse UnSubmitWorkstation(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 -321692502
+      ldc.i4 648277981
+      xor 
+      ldc.i4 -423413440
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_6874963f64554f6c9453fb77ae802833
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_0053: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void UnSubmitWorkstationAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      ldarg.2 
+      ldarg.3 
+      ldarg.s puspendikdata4
+      ldnull 
+      call WorkstationService::UnSubmitWorkstationAsync
+      nop 
+      ret 
+
+  METHOD Void UnSubmitWorkstationAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4, Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::So9FZwntl2
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::hYEFa2LgKU
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::So9FZwntl2
+      ldarg.0 
+      ldc.i4 -1283867448
+      ldc.i4 -1468203946
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_60fcf68a246f430da22c2f187c8b4cc1
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      ldarg.0 
+      ldfld WorkstationService::So9FZwntl2
+      ldarg.s userState
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void hYEFa2LgKU(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::MGOFiCXA6U
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::MGOFiCXA6U
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj UnSubmitWorkstationCompletedEventArgs::.ctor
+      callvirt UnSubmitWorkstationCompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD CBTResponse IsSubmitedRegistered(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 -1211831360
+      ldc.i4 -873996831
+      add 
+      ldc.i4 -1626580075
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_8da749a9eea94d3182f20b29368f8de3
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_0053: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void IsSubmitedRegisteredAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      ldarg.2 
+      ldarg.3 
+      ldarg.s puspendikdata4
+      ldnull 
+      call WorkstationService::IsSubmitedRegisteredAsync
+      nop 
+      ret 
+
+  METHOD Void IsSubmitedRegisteredAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4, Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::SYxFp7SgCL
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::FwOFAC3rRH
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::SYxFp7SgCL
+      ldarg.0 
+      ldc.i4 7179853
+      ldc.i4 943687579
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_c8c366b251c54560831a0933d492065a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      ldarg.0 
+      ldfld WorkstationService::SYxFp7SgCL
+      ldarg.s userState
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void FwOFAC3rRH(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::trRFSt1XRH
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::trRFSt1XRH
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj IsSubmitedRegisteredCompletedEventArgs::.ctor
+      callvirt IsSubmitedRegisteredCompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD CBTResponse PesertaTesBeat(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 -1386494539
+      ldc.i4 -1545231045
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_6b45aad2ca5049239702a633bdad69fa
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_004d: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void PesertaTesBeatAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      ldarg.2 
+      ldarg.3 
+      ldarg.s puspendikdata4
+      ldnull 
+      call WorkstationService::PesertaTesBeatAsync
+      nop 
+      ret 
+
+  METHOD Void PesertaTesBeatAsync(String puspendikdata1, String puspendikdata2, String puspendikdata3, String puspendikdata4, Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::z9kFBIXg4M
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::aC3F0Agsik
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::z9kFBIXg4M
+      ldarg.0 
+      ldc.i4 854586762
+      ldc.i4 2091635239
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_8058ed4e3b5642a889dd6c4665301b14
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.4 
+      newarr Object
+      dup 
+      ldc.i4.0 
+      ldarg.1 
+      stelem.ref 
+      dup 
+      ldc.i4.1 
+      ldarg.2 
+      stelem.ref 
+      dup 
+      ldc.i4.2 
+      ldarg.3 
+      stelem.ref 
+      dup 
+      ldc.i4.3 
+      ldarg.s puspendikdata4
+      stelem.ref 
+      ldarg.0 
+      ldfld WorkstationService::z9kFBIXg4M
+      ldarg.s userState
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void aC3F0Agsik(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::Y04F6V9W8B
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::Y04F6V9W8B
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj PesertaTesBeatCompletedEventArgs::.ctor
+      callvirt PesertaTesBeatCompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD CBTResponse GetDataLove1Server()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 226726137
+      ldc.i4 33279969
+      add 
+      ldc.i4 1435924025
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_053015b3ee3b44d88bcdf8d56ac27530
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      newarr Object
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_0042: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void GetDataLove1ServerAsync()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldnull 
+      call WorkstationService::GetDataLove1ServerAsync
+      nop 
+      ret 
+
+  METHOD Void GetDataLove1ServerAsync(Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::nAGF8myWh9
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::thIF5LXYmE
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::nAGF8myWh9
+      ldarg.0 
+      ldc.i4 -52881304
+      ldc.i4 -2065766152
+      add 
+      ldc.i4 -634710442
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_7e7a1cd262b94d128bd8e406d09652e9
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      newarr Object
+      ldarg.0 
+      ldfld WorkstationService::nAGF8myWh9
+      ldarg.1 
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void thIF5LXYmE(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::bTEFg0Z9yQ
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::bTEFg0Z9yQ
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj GetDataLove1ServerCompletedEventArgs::.ctor
+      callvirt GetDataLove1ServerCompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD CBTResponse GetDataLove2Server()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 -2051069223
+      ldc.i4 -121580162
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_1f0d8575e2a64f99badd1faea28adcf3
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      newarr Object
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_003c: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void GetDataLove2ServerAsync()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldnull 
+      call WorkstationService::GetDataLove2ServerAsync
+      nop 
+      ret 
+
+  METHOD Void GetDataLove2ServerAsync(Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::NZUFJW8xkX
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::gvHFU8p3n8
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::NZUFJW8xkX
+      ldarg.0 
+      ldc.i4 1964445253
+      ldc.i4 57942480
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_58019b50b63a476ea06057a2db54f06a
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      newarr Object
+      ldarg.0 
+      ldfld WorkstationService::NZUFJW8xkX
+      ldarg.1 
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void gvHFU8p3n8(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::JWJF1OWD3H
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::JWJF1OWD3H
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj GetDataLove2ServerCompletedEventArgs::.ctor
+      callvirt GetDataLove2ServerCompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD CBTResponse GetDataLove3Server()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldc.i4 1913323447
+      ldc.i4 1367686255
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_520098cedb1a45709e913928c81430e2
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      newarr Object
+      call SoapHttpClientProtocol::Invoke
+      ldc.i4.0 
+      ldelem.ref 
+      castclass CBTResponse
+      stloc.0 
+      br IL_003c: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void GetDataLove3ServerAsync()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldnull 
+      call WorkstationService::GetDataLove3ServerAsync
+      nop 
+      ret 
+
+  METHOD Void GetDataLove3ServerAsync(Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::WsKFhKu5MI
+      ldnull 
+      ceq 
+      stloc.0 
+      ldloc.0 
+      brfalse IL_002a: ldarg.0
+      ldarg.0 
+      ldarg.0 
+      ldftn WorkstationService::sCNFvdjVYf
+      newobj SendOrPostCallback::.ctor
+      stfld WorkstationService::WsKFhKu5MI
+      ldarg.0 
+      ldc.i4 -1717749655
+      ldc.i4 -1039261521
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_7e7a1cd262b94d128bd8e406d09652e9
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.0 
+      newarr Object
+      ldarg.0 
+      ldfld WorkstationService::WsKFhKu5MI
+      ldarg.1 
+      call SoapHttpClientProtocol::InvokeAsync
+      nop 
+      ret 
+
+  METHOD Void sCNFvdjVYf(Object  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld WorkstationService::dLaFcyWyX0
+      ldnull 
+      ceq 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_001d: ldarg.1
+      br IL_004e: ret
+      ldarg.1 
+      castclass InvokeCompletedEventArgs
+      stloc.0 
+      ldarg.0 
+      ldfld WorkstationService::dLaFcyWyX0
+      ldarg.0 
+      ldloc.0 
+      callvirt InvokeCompletedEventArgs::get_Results
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Error
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_Cancelled
+      ldloc.0 
+      callvirt AsyncCompletedEventArgs::get_UserState
+      newobj GetDataLove3ServerCompletedEventArgs::.ctor
+      callvirt GetDataLove3ServerCompletedEventHandler::Invoke
+      nop 
+      ret 
+
+  METHOD Void CancelAsync(Object userState)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      call HttpWebClientProtocol::CancelAsync
+      nop 
+      ret 
+
+  METHOD Boolean JQQFNeJo8I(String  )
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.1 
+      brfalse IL_001e: ldc.i4.1
+      ldarg.1 
+      ldsfld String::Empty
+      call String::op_Equality
+      br IL_001f: stloc.1
+      ldc.i4.1 
+      stloc.1 
+      ldloc.1 
+      brfalse IL_002d: ldarg.1
+      ldc.i4.0 
+      stloc.2 
+      br IL_007b: ldloc.2
+      ldarg.1 
+      newobj Uri::.ctor
+      stloc.0 
+      ldloc.0 
+      callvirt Uri::get_Port
+      ldc.i4 1024
+      blt IL_0074: ldc.i4.0
+      ldloc.0 
+      callvirt Uri::get_Host
+      ldc.i4 758667160
+      not 
+      ldc.i4 -1889472848
+      xor 
+      ldsfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_188e107399a14b6fbb545059884f62e9
+      ldfld <Module>{789744db-0abe-49c8-9eec-1dfa43a3ec61}::m_df0882656164444fbd203474670ae7a7
+      xor 
+      call PDENUARDKHJ71ysCRux::KBSR0Dt1Sr
+      ldc.i4.5 
+      call String::Compare
+      ldc.i4.0 
+      ceq 
+      br IL_0075: stloc.2
+      ldc.i4.0 
+      stloc.2 
+      br IL_007b: ldloc.2
+      ldloc.2 
+      ret 
+
+========================================
+TYPE ExamServices.Arthur_WorkstationService.CBTResponse
+========================================
+  FIELD String DKGFCC4SQo
+  FIELD Boolean d7qFL0K1uC
+  FIELD Boolean Ge0F7ZHPDP
+
+  METHOD String get_Message()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld CBTResponse::DKGFCC4SQo
+      stloc.0 
+      br IL_0014: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void set_Message(String value)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      stfld CBTResponse::DKGFCC4SQo
+      ret 
+
+  METHOD Boolean get_Result()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld CBTResponse::d7qFL0K1uC
+      stloc.0 
+      br IL_0014: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void set_Result(Boolean value)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      stfld CBTResponse::d7qFL0K1uC
+      ret 
+
+  METHOD Boolean get_ResultSpecified()
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldfld CBTResponse::Ge0F7ZHPDP
+      stloc.0 
+      br IL_0014: ldloc.0
+      ldloc.0 
+      ret 
+
+  METHOD Void set_ResultSpecified(Boolean value)
+      br.s IL_0007: nop
+      call 
+      nop 
+      ldarg.0 
+      ldarg.1 
+      stfld CBTResponse::Ge0F7ZHPDP
+      ret 
+
+  METHOD Void .ctor()
+      br.s IL_0007: call System.Void PKf6wKmO0NHVrXhHEoV.dJLOPAmoTijWxbGSvCs::urY36js4go()
+      call 
+      call dJLOPAmoTijWxbGSvCs::urY36js4go
+      ldarg.0 
+      call Object::.ctor
+      nop 
+      ret 
+
