@@ -1,0 +1,59 @@
+0	1
+6	examDesktop
+32	App tidak bisa dijalankan
+86	runningexam
+112	Read Config
+138	Terjadi kesalahan ketika mendapatkan data dari komputer server.
+268	notip
+282	Tidak ada nomor ip untuk tes di komputer ini.
+376	regip
+390	Registrasi ip tidak berhasil, silahkan diulang kembali.
+504	notua
+518	UA tidak berhasil, silahkan diulang kembali.
+610	 
+616	unbk
+628	Open Browser
+656	Fail Open Browser
+694	notok
+708	Kode Uniq Tidak Ditemukan
+762	+
+768	-
+774	LShiftKey
+796	RShiftKey
+818	LControlKey
+844	RControlKey
+870	 + 
+880	Run Interlocks
+912	0
+918	Aplikasi web browser tidak ditemukan!
+996	Stop validation.
+1032	Special keys detected.
+1080	.exe
+1092	Kabel LAN unplug!
+1130	elekbrowser
+1156	Applikasi Browser telah Hilang
+1220	btn_open
+1240	Open
+1252	Form1_Main
+1276	Form1
+1290	setting_exambro.json
+1334	label1
+1350	Password
+1370	tB_Password
+1396	btn_OK
+1412	OK
+1420	Form_Password
+1450	Applikasi Sudah Berjalan
+1502	ExamServices
+1530	ExamBrowser_Arthur_WorkstationService_WorkstationService
+1646	https://192.168.0.200/puspendikunbkservice/CBTservices/WorkstationService.svc
+1804	SubmitWorkstationV3
+1846	SubmitWorkstation
+1884	UnSubmitWorkstation
+1926	IsSubmitedRegistered
+1970	PesertaTesBeat
+2002	GetDataLove1Server
+2042	GetDataLove2Server
+2082	GetDataLove3Server
+2122	localHost
+2144	  

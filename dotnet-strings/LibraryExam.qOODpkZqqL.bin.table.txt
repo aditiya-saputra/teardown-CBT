@@ -1,0 +1,243 @@
+4	ExamBrowser_Arthur_WorkstationService_WorkstationService
+116	Shell_TrayWnd
+146	button
+162	inovasi
+180	text/plain
+204	reveal
+220	anaslopyanto
+248	dd
+256	notok
+270	radya
+284	Authorization
+314	cmFkeWEgdGVrbm9sb2dpIGRpZ2l0YWw=
+382	unbk
+394	.
+400	Tidak ada nomor ip untuk tes di komputer ini.
+494	notip
+508	puspendikunbkservice/CBTservices/WorkstationService.svc
+622	Fijar love Feyy
+656	FF
+664	NOO
+674	YES
+684	 - (is Registered) - 
+730	NOK
+740	OOK
+750	 - (Register ip:
+786	) - 
+798	Registrasi ip 
+830	 tidak berhasil, silahkan diulang kembali.
+918	regip
+932	78E0173C0A0G5E02W7213
+978	unbk/api/workstation/token2
+1036	 tidak berhasil, silahkan diulang kembali..
+1126	Root\WMI
+1146	WmiMonitorConnectionParams
+1202	wmi
+1212	SELECT * FROM WmiMonitorConnectionParams
+1296	notwmi
+1312	Software\Microsoft\Windows\CurrentVersion\Policies\System
+1430	DisableChangePassword
+1476	Change Registry = Gagal merubah reg ubah password
+1578	DisableLockWorkstation
+1626	Change Registry = Gagal merubah reg lockworkstation
+1732	HideFastUserSwitching
+1778	Change Registry = Gagal merubah reg ubah user
+1872	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+1994	NoLogoff
+2014	Change Registry = Gagal merubah reg ubah logoff
+2112	Change Registry = Gagal Mereset Registry ChangePass
+2218	Change Registry = Gagal Mereset Registry logoff
+2316	Change Registry = Gagal Mereset Lock Workstation
+2416	Change Registry = Gagal Mereset Perubahan user
+2512	SYSTEM\CurrentControlSet\Control\Terminal Server
+2612	fDenyTSConnections
+2652	Change Registry = Gagal Mereset RDP Session
+2742	http://google.com/generate_204
+2806	-
+2812	Win32_ComputerSystem
+2856	TotalPhysicalMemory
+2898	RAM
+2908	A33662B4A78AA967266ED894B4D891B5FBF666D347B99FA268DDF7FF9D038BE9
+3040	Win32_SoundDevice
+3078	Name
+3090	 - 
+3100	Status
+3116	SOUND
+3130	No Sound Detect
+3164	Win32_Processor
+3198	NumberOfCores
+3228	 Core
+3242	PROC
+3254	1 Core
+3270	explorer.exe
+3298	Default
+3316	  {0}
+3330	myDesktop
+3352	calc.exe
+3372	Apps
+3384	LWin
+3396	RWin
+3408	LMenu+Tab
+3430	RMenu+Tab
+3452	LWin+Tab
+3472	RWin+Tab
+3492	LControlKey+Return
+3532	RControlKey+Return
+3572	LShiftKey+Escape
+3608	RControlKey+WM_LBUTTON
+3656	LShiftKey+Return
+3692	RShiftKey+Return
+3728	LControlKey+S
+3758	RControlKey+S
+3788	LControlKey+O
+3818	RControlKey+O
+3848	LControlKey+T
+3878	RControlKey+T
+3908	LControlKey+N
+3938	RControlKey+N
+3968	LMenu+Escape
+3996	RMenu+Escape
+4024	LMenu+F4
+4044	RMenu+F4
+4064	LControlKey+H
+4094	RControlKey+H
+4124	LControlKey+J
+4154	RControlKey+J
+4184	LControlKey+K
+4214	RControlKey+K
+4244	LControlKey+L
+4274	RControlKey+L
+4304	LControlKey+LShiftKey+N
+4354	RControlKey+RShiftKey+N
+4404	LControlKey+RShiftKey+N
+4454	RControlKey+LShiftKey+N
+4504	ControlKey+Menu+Tab
+4546	F1
+4554	F2
+4562	F3
+4570	F4
+4578	F6
+4586	F7
+4594	F8
+4602	F9
+4610	F10
+4620	F11
+4630	F12
+4640	LControlKey+WM_LBUTTON
+4688	RControlKey+WM_RBUTTON
+4736	LMenu
+4750	RMenu
+4764	LShiftKey+WM_RBUTTON
+4808	RShiftKey+WM_RBUTTON
+4852	LShiftKey+WM_LBUTTON
+4896	RShiftKey+WM_LBUTTON
+4940	LControlKey+WM_RBUTTON
+4988	RControlKeyBaru
+5022	LControlKeyBaru
+5056	RControlKey+Tab
+5090	LControlKey+Tab
+5124	LControlKey+C
+5154	RControlKey+C
+5184	LControlKey+V
+5214	RControlKey+V
+5244	RShiftKey+Escape
+5280	Escape
+5296	Printscreen
+5322	notepad
+5340	firefox
+5358	calc
+5370	calculator
+5394	acrobat
+5412	winword
+5430	excel
+5444	powerpnt
+5464	taskmgr
+5482	safari
+5498	sethc
+5512	easeofaccessdialog
+5552	teamviewer
+5576	school
+5592	client32
+5612	vncviewer
+5634	radmin
+5650	csagtpro
+5670	pcremote
+5690	rfusclient
+5714	rutview
+5732	rutserv
+5750	ROMFUSClient
+5778	LMNoIpServer
+5806	ROMViewer
+5828	AnyDesk
+5846	B4-Capture
+5870	B4-Service
+5894	Beamyourscreen-host
+5936	FindNClose
+5960	RemotePCService
+5994	RPCPrintService
+6028	RPCSuite
+6048	NHOSTVC
+6066	NHSTW32
+6084	TeamViewer
+6108	TeamViewer_Service
+6148	rserver3
+6168	FamItrfc
+6188	wclientw
+6208	Ultraviewer_Service
+6250	Riot
+6262	RPCService
+6286	RemotePCDesktop
+6320	AeroAdmin
+6342	vncserverui
+6368	vncserver
+6390	csp_ctrlagent
+6420	csp_ctrlagentsvc
+6456	chrome
+6472	iexplore
+6492	elekbrowser
+6518	microsoftedge
+6548	msedge
+6564	examcam
+6582	setting_exambro.json
+6626	AppSettings is empty.
+6672	500
+6682	1
+6688	0
+6694	validwin10
+6718	validwin7
+6740	validwin8
+6762	validwin2012
+6790	validwin2008
+6818	log.txt
+6836	Application\service\elekbrowser\elekbrowser.exe
+6934	Application\service\ExamServices.exe
+7010	Application\service\ExamCam.exe
+7076	Application/OSVersionInfo.dll
+7138	Application/service/ImageCapture/
+7208	username.json
+7238	banksoalcbt.pusmendik.kemdikbud.go.id/
+7318	QAZ123EDC098PLM765OKN159IJB
+7376	3EDC098PLM765OKN
+7412	mko0bhu8cft6zse5
+7448	nji9vgy7xdr6
+7476	mji6tui7xdl5
+7504	eb000.dat
+7526	SubmitWorkstationV3
+7568	SubmitWorkstation
+7606	UnSubmitWorkstation
+7648	IsSubmitedRegistered
+7692	PesertaTesBeat
+7724	GetDataLove1Server
+7764	GetDataLove2Server
+7804	GetDataLove3Server
+7844	localHost
+7866	yyyy-MM-dd
+7890	https://banksoalcbt.pusmendik.kemdikbud.go.id/datetime/
+8004	gettime: 
+8026	input
+8040	input cannot be negative
+8092	QAZ2WSX3EDC4RFV5TGB6YHN7UJM8K9LP
+8160	 
+8166	  
+8174	kyd3m0m6CN9U6dPtXV.eqTqq43iSYKvXfGMYy
+8252	Load 

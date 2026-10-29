@@ -1,0 +1,349 @@
+0	ExamServices
+28	pictureBox1
+54	progressBar1
+82	$this.Icon
+106	frmSplashScreen
+140	examDesktop
+166	ExamBrowser
+192	This application is already running.
+268	Sudah melakukan Inisiasi
+320	Sudah melakukan Inisiasi Spesifikasi
+396	Applikasi Hanya berjalan dengan user administrator
+500	Applikasi Exambrowser dijalankan melalui Archive Application atau folder temporary, menyebabkan aplikasi tidak berjalan normal. Silakan Extract file terlebih dahulu.
+834	1
+840	Please Stop application first!
+904	log.txt
+922	admin
+936	proktor
+954	Password Salah
+986	0
+992	Button Run Exambrowser Di Klik
+1056	Bit64
+1070	Bit32
+1084	unbk
+1096	.
+1102	Tidak ada nomor ip untuk tes di komputer ini.
+1196	NOK
+1206	OOK
+1216	 - (Get user agent) - 
+1264	ua fail!
+1284	UA tidak berhasil, silahkan diulang kembali.
+1376	Get Workstation services = 
+1434	Registrasi ip 
+1466	 tidak berhasil, silahkan diulang kembali..
+1556	Resolusi Monitor Anda Tidak Sesuai ketentuan. Resolusi monitor harus diatas 1024X720
+1728	Applikasi exambro tidak bisa dijalankan menggunakan 2 layar komputer
+1868	Terdeteksi internet saat ingin menjalankan applikasi semi online
+2000	Applikasi tidak bisa dijalankan ketika sedang di remote(Melakukan RDP)
+2144	File-File aplikasi berubah atau applikasi corrupt
+2246	Gagal Mengubah Reg
+2286	SYSTEM\CurrentControlSet\Control\Terminal Server
+2386	fDenyTSConnections
+2426	Remote Desktop is now DISABLED
+2490	Error toggling Remote Desktop permissions
+2576	cam
+2586	Data Webcam Kosong
+2626	Applikasi ini merekam aktifitas peserta menggunakan Camera selama ujian. Dengan ini saya bersedia untuk di rekam aktifitas peserta selama ujian berlangsung.
+2942	Persetujuan Merekam Aktifitas Saat Ujian
+3026	Tidak Menyetujui direkam
+3078	Membuka Desktop Baru
+3122	Menjalankan Examservices
+3174	Menjalankan Kamera
+3214	Examservices sudah running
+3270	Menampilkan desktop
+3312	Aplikasi tidak ditemukan!
+3366	STOP
+3378	runexamserviceserror=
+3424	2
+3430	Applikasi Not Ready
+3472	RUN
+3482	Gagal merubah tombol running= 
+3546	Stop ExamBrowser...
+3588	Pressed Keys
+3616	Filtered Keys
+3646	 + 
+3656	Flag_Do_Block: 
+3690	-
+3696	Applikasi Examservices sudah hilang
+3770	elekbrowser
+3796	explorer
+3816	Successfully terminated explorer shell process with PID = {0}.
+3944	Failed to completely terminate explorer shell process with PID = {0}.
+4086	The explorer shell seems to already be terminated.
+4190	taskkill.exe
+4218	windir
+4234	Failed to gracefully terminate explorer shell, attempting forceful termination...
+4400	/F /PID {0}
+4426	explorer.exe
+4454	Starting explorer shell process...
+4526	Waiting for explorer shell to initialize...
+4616	Explorer shell successfully started with PID = {0}.
+4722	Detail: Mendapatkan Bit64
+4776	Detail: Mendapatkan Bit32
+4830	SEMI DARING
+4856	Detail: Mendapatkan Moda Ujian
+4920	DARING
+4936	 
+4942	 REL © 2015 PUSMENDIK
+4988	Detail: Mendapatkan Versi
+5042	Detail: Mendapatkan OS
+5090	 MB
+5100	Detail: Mendapatkan Ramsize
+5158	Detail: Mendapatkan Getprocessor
+5226	X
+5232	Detail: Mendapatkan Getdisplay
+5296	Detail: Mendapatkan Get Sound
+5358	dd MMMM yyyy
+5386	id-ID
+5400	Detail: Mendapatkan Date Time
+5462	Detail: Mendapatkan Versi, Ram, Processor, Display, Sound, Jam
+5590	Persyaratan
+5616	Tidak Ditemukan Device Camera di komputer ini
+5710	dd
+5718	Tanggal pada komputer yang digunakan untuk ujian harus sesuai. Silakan melakukan pengaturan pada date/time komputer anda.
+5964	Windows 10
+5988	Operating System Ini tidak diijinkan
+6064	Windows 7
+6086	Windows 8
+6108	Windows 2008
+6136	Windows 2012
+6164	Windows 8.1
+6190	Windows 8.0
+6216	Windows xp
+6240	Detail: Selesai mendapatkan Versi OS
+6316	Pengaturan Display setting layar minimal 1024X720
+6418	Detail: Validasi Monitor
+6470	Internet Tidak Tersedia
+6520	Applikasi Membutuhkan Akses Internet Untuk dijalankan
+6630	Internet Tersedia
+6668	Applikasi Tidak diijinkan terdapat internet saat menjalankan ujian semi online
+6828	Detail: Internet
+6864	Minimal RAM adalah 1GB
+6912	Detail: Get Ram
+6946	Applikasi dan OS Bit tidak sesuai
+7016	Applikasi yang digunakan tidak sesuai dengan bit type OS anda atau file applikasi corrupted
+7202	Detail: Applikasi yang digunakan tidak sesuai dengan bit type OS anda atau file applikasi corrupted
+7404	File-file aplikasi berubah atau applikasi corrupt
+7506	Applikasi, OS Bit tidak sesuai dan applikasi corrupt
+7614	Applikasi Complete
+7654	Detail: Applikasi Complete
+7710	Verdana
+7728	App Tidak Dapat Berjalan
+7780	Silakan Sesuaikan Spesifikasi
+7842	statusStrip1
+7870	tssl_heartbeep
+7902	---------s
+7926	tSSLbl_Message
+7958	msg
+7968	toolStripProgressBar1
+8014	menuStrip1
+8038	TSMItm_Close
+8066	Close
+8080	TSMItm_Settings
+8114	Settings
+8134	helpToolStripMenuItem
+8180	tB_WatchDog
+8206	btn_Run
+8224	groupBox1
+8246	Microsoft Sans Serif
+8290	laJudulMode
+8316	laJudulJam
+8340	Tanggal Komputer Client
+8390	pictureBoxWebcam
+8426	comboBox1
+8448	pictureBoxJam
+8478	laJudulwebcam
+8508	Webcam
+8524	pictureBoxint
+8554	pictureBoxStatint
+8592	laJudulint
+8616	Internet Connection
+8658	pictureBoxversi
+8692	pictureBoxStatCamera
+8736	pictureBoxStatJam
+8774	pictureBoxStatversi
+8816	pictureBoxStatos
+8852	pictureBoxStatcpu
+8890	pictureBoxStatram
+8928	pictureBoxStatdisp
+8968	pictureBoxStatsound
+9010	pictureBoxsound
+9044	pictureBoxdisp
+9076	pictureBoxram
+9106	pictureBoxcpu
+9136	pictureBoxos
+9164	laJudulversi
+9192	Versi Applikasi
+9226	laKetversi
+9250	laKetint
+9270	laKetjam
+9290	laKetsound
+9314	laJudulsound
+9342	Sound Card
+9366	laKetdisp
+9388	laJuduldisp
+9414	Display Resolution
+9454	laKetram
+9474	laJudulram
+9498	RAM
+9508	laKetcpu
+9528	laJudulcpu
+9552	CPU
+9562	laKetos
+9580	laJudulos
+9602	Operating System
+9638	Form_Main
+9660	setting_exambro.json
+9704	 == 
+9716	label1
+9732	Password
+9752	tB_Password
+9778	btn_OK
+9794	OK
+9802	Form_Password
+9832	Tidak bisa menyimpan data config
+9900	validwin7
+9922	validwin8
+9944	validwin10
+9968	validwin2012
+9996	validwin2008
+10024	inovasi
+10042	radya
+10056	panProktor
+10080	textBoxPassword
+10114	LabPassword
+10140	radioButtonOnline
+10178	Full Online
+10204	LabModa
+10222	Semi/Full Online
+10258	radioButtonSemi
+10292	Semi Online
+10318	textBoxUnlockkeys
+10356	LabUnlockkeys
+10386	Unlock Keys
+10412	panKetProktor
+10442	Arial Black
+10468	Pengaturan Proktor
+10508	panUtama
+10528	LabNameWebcam
+10558	Nama Webcam
+10584	LabKegiatanfr
+10614	Kegiatan FR
+10640	textBoxWebcam
+10670	textBoxKegiatan
+10704	label9
+10720	Durasi Send Status
+10760	label8
+10776	Durasi Send Pesan
+10814	label7
+10830	Durasi Send Image
+10868	textBoxStatusInt
+10904	textBoxPesanInt
+10938	textBoxImageInt
+10972	textBoxHeartInt
+11006	LabHeartInt
+11032	Heart Interval
+11064	checkBoxKamera
+11096	Enable
+11112	textBoxJenisexam
+11148	LabAktkamera
+11176	Aktif Kamera
+11204	textBoxVersi
+11232	textBoxHash32
+11262	textBoxHash64
+11292	textBoxNameapps
+11326	LabHash32
+11348	Hash 32bit
+11372	LabJenisexam
+11400	Jenis Exambro
+11430	LabHash64
+11452	Hash 64bit
+11476	LabNameapps
+11502	Nama Apps
+11524	LabVersi
+11544	Versi Exambro
+11574	panKetUtama
+11600	label2
+11616	Pengaturan Utama
+11652	panAkses
+11672	CBJenisApps
+11698	labJenisapps
+11726	Jenis Apps
+11750	checkBoxSeleksi
+11784	labSeleksi
+11808	Seleksi
+11826	LabUrlAgent
+11852	URL Agent
+11874	textBoxUrlAgent
+11908	LabUrlFR
+11928	URL FR
+11944	textBoxURLFR
+11972	textBoxParonline
+12008	LabParOnline
+12036	Parameter Online
+12072	textBoxParsemi
+12104	LabParSemi
+12128	Parameter Semi
+12160	checkBoxNewdesktop
+12200	LabNewdesktop
+12230	New Desktop
+12256	textBoxUrlOnline
+12292	textBoxUrlsemi
+12324	LabUrlonline
+12352	URL Online
+12376	LabUrlsemi
+12400	URL SemiOnline
+12432	panKetAkses
+12458	label3
+12474	Pengaturan Akses
+12510	panel1
+12526	textBoxSharingsess
+12566	LabSharingsess
+12598	Sharing Session
+12632	checkBoxWin2008
+12666	checkBoxWin2012
+12700	checkBoxWin10
+12730	checkBoxWin8
+12758	checkBoxWin7
+12786	LabOSVersion
+12814	OS Version
+12838	textBoxHeight
+12868	textBoxWidth
+12896	label5
+12912	H
+12918	label6
+12934	W
+12940	LabDisplay
+12964	Display
+12982	textBoxRam
+13006	LabRamsize
+13030	RAM Size
+13050	panel2
+13066	label4
+13082	Pengaturan Validasi
+13124	btn_Cancel
+13148	Cancel
+13164	btn_Save
+13184	Save
+13196	Form_Settings
+13226	Lock-Lock-icon
+13258	Lock-Unlock-icon
+13294	test2
+13308	test3
+13322	test4
+13336	ram
+13346	processor
+13368	windowsg
+13388	monitor
+13406	audio
+13420	onlinetest
+13444	icon_klien
+13468	koneksiinter
+13496	nointernet
+13520	ceklis
+13536	silang
+13552	kemdikbud2
+13576	botarrow3
+13598	jam2
+13610	webcam
+13626	  

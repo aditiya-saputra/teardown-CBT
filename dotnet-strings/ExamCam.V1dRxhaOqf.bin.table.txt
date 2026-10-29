@@ -1,0 +1,42 @@
+0	Application/service/ImageCapture/
+70	CEKCEK
+86	0
+92	1
+98	ExamServices
+126	Kamera mengalami Masalah, opencamera=
+204	_
+210	yyyyMMddHHmmss
+242	.jpeg
+256	Kamera mengalami masalah, updatecapture=
+340	Kamera mengalami masalah, newframe=
+414	cameralog.txt
+444	dd/MM/yy HH:mm:ss
+482	imagedariexambrowser/
+528	username
+548	key
+558	gambar
+574	status
+590	nama_kegiatan
+620	token
+634	https://192.168.0.200/unbk/api/workstation/upload-fr-image
+754	Reveal
+770	anaslopyanto
+798	UserName
+818	File
+830	FILEUSERNAME:
+860	username.json
+890	statuskirim
+916	KIRIM:
+932	 ==> 
+946	panel1
+962	btnMax
+978	pictureBox1
+1004	Form1
+1018	botarrow3
+1040	Kamera tidak dapat dijalankan silakan memilih kamera lain pada aplikasi exambrowser sebelum dijalankan
+1248	PERINGATAN
+1272	OK
+1280	Upload Foto
+1306	Status upload tidak ok
+1354	 
+1360	  
