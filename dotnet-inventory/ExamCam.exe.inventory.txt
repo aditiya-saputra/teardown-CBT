@@ -1,0 +1,360 @@
+﻿# ExamCam.exe
+Assembly: ExamCam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Types: 11
+
+TYPE <Module>
+  M Void .cctor()
+  M Void m8DCB4D826AB6A71()
+  F Boolean f8DCB4D826AB6A71
+
+TYPE <Module>{6B48735F-B9AB-46C4-A19B-9664F24DE959}
+
+TYPE <Module>{bc451bce-102b-41ff-97a9-745e19bf326f}
+  M Void .cctor()
+  M Void .ctor()
+  M Void fb66a62b765af4e5688d51c993916cbfb()
+  F Int32 m_305943fedccc4694af3b7c7d8ba81fff
+  F Int32 m_3525d20eb35d4d2ebb9de8216eecc96d
+  F Int32 m_4cdf08a787fa46f6ad1ac1a349eb0c66
+  F Int32 m_2cdaf700d452430f8b7937a2df3c14ab
+  F Int32 m_12278168a7dd460a9d76302e6746538e
+  F Int32 m_3f3feaa4ea4c4745bc1164f526843ff9
+  F Int32 m_f0d7f5763e0b41369037110a8e966fff
+  F Int32 m_44937069ef704349b01107d6ac5c029f
+  F Int32 m_d2abd16e73af48508c51a02e08a3b86e
+  F Int32 m_3c6f27b9a01743a391e93a7ed10d48d7
+  F Int32 m_d3c8ee9d3abe49229295d188af1ea5c4
+  F Int32 m_0f852641438548279b3374c7696ca48d
+  F Int32 m_10806a5d8d3c43cdb347123341c4a124
+  F Int32 m_3fc8bda115744a9194e9511a9d190dfa
+  F Int32 m_f93a4a8a4b6948ec93de732c2026a4f9
+  F Int32 m_2de3808eb5e74ff98b4f8303b45f7b2a
+  F Int32 m_0dbed6424fae410cb4d09c0e568a6d0a
+  F Int32 m_c3e0e965608a480595a07728c95593ca
+  F Int32 m_4a1438034cc84d7c8968498e7520a583
+  F Int32 m_3f0b022e5276431d89b41e9a8e236e4a
+  F Int32 m_6a1b127434024a51984afeb81aa17f7e
+  F Int32 m_ae556f08b158445a966f2251347dd6e5
+  F Int32 m_ebd46b1882a14ffdbe389425ae97292d
+  F Int32 m_dc465dfc7f7e47b69d0f5975655d640a
+  F Int32 m_856b64606aac4ca69abc3044ba4601bc
+  F Int32 m_6f12f56af2764cb090fa3ad2f20cac49
+  F Int32 m_ea9e2dc1f06e4f1f85abdf49fcc2cbf8
+  F Int32 m_bebf881a079d4a7496932f7318496671
+  F Int32 m_69f2e73aa7364c2d861ef1dff92976d6
+  F Int32 m_c50d087b4bf64c2ab02de7d9a5c3826f
+  F Int32 m_1cdaed15ec2b4142bfd3b8ed8232877d
+  F Int32 m_c7b47942e9a7477db75fe28ac0b2a164
+  F Int32 m_db9fde00cee841ca8bc26eac2c4289d1
+  F Int32 m_1ea567c36ed34193b84158b86c192316
+  F Int32 m_58a1c4685aed4f6c8425754ca88bd778
+  F Int32 m_a39c9730be1747b29b109634c6b9e019
+  F Int32 m_483046811ad841a399f88a400fb321a1
+  F Int32 m_09041336954d44aa8ec29555dcdc7372
+  F Int32 m_df8b92ad925543d28f184b38da986b0e
+  F Int32 m_a6ae5352d56f4091966d41b1207c37c3
+  F Int32 m_ae54eb74d1d64b939d5c344d29e154e8
+  F Int32 m_f2f1c15f4322463d86275ef75836f753
+  F Int32 m_203b9afcfabf450788f3d9e58c04f921
+  F Int32 m_ae2fe929ae1642509f71a46a8869630c
+  F Int32 m_324c6aed27fe46649d8967f09897123e
+  F Int32 m_0744a4e44f454939b4f59b117e0e34b1
+  F Int32 m_29bef0c6f4ce4c2a992543bc95f15eff
+  F Int32 m_3c5fc839cf2f47ba8a902e2adb37983a
+  F Int32 m_0466e48aa993460f860ca336733363d4
+  F <Module>{bc451bce-102b-41ff-97a9-745e19bf326f} m_27ee0b34dbdd41f6a97c971e3a929d6d
+  F Int32 m_4f4455ffd8f5482fbfcda1eddd8a324d
+  F Int32 m_48705551457045cf9e2c2f222f96f7cc
+  F Int32 m_ae01ae78a7944cad96133fd0f7262991
+  F Int32 m_dcca42573756400b8f6f41d288be7ab1
+  F Int32 m_2dd9cc63b5d94fbcbbf7131e4531a1b2
+  F Int32 m_3baab05ef215495ea406a709ec20fa09
+  F Int32 m_bd31fb283a30484a906a93799db8baf8
+  F Int32 m_04a530b5f3fd4a4590d932fb61015c44
+  F Int32 m_12d08711f24b45aeb025242de6bdf201
+  F Int32 m_993d108a651d45a6ae5049a3c7401f7f
+  F Int32 m_65174a8264aa4fc3a86f0babd3e6fbd6
+  F Int32 m_9a0d5436dfd84c21b3b369a39ea84993
+  F Int32 m_530f584a7e264d7f9ba00d31e0f2d3a6
+  F Int32 m_1bc3edf5fbfe47e1afcfa2939332c1cc
+  F Int32 m_975652dd350f409cadedf7ce7925aa1b
+  F Int32 m_7c7afd11aeff488095933084973cfed6
+  F Int32 m_8408b83f5ed14a5793851ceceeec159f
+  F Int32 m_76fb8ae174dd497196ffc333290473ba
+  F Int32 m_00e11a0e689d4a3a892817b336ed611e
+  F Int32 m_0b5edac9fd494507a2df84fa68a1ad5b
+  F Int32 m_4313618cb35b48668b0149423a2baac8
+  F Int32 m_46a2b85a980141949398afee3bb64984
+  F Int32 m_585391b38ff5476295021a21b49d6327
+  F Int32 m_7cf4d753c3ee45738a016c05321956af
+  F Int32 m_24f5c35a2b9647d6b4d76afdc6e15626
+  F Int32 m_7c647daad1d044758fb5b81d01099e6b
+  F Int32 m_0fdc50d290be43888d76c6ab23e4daac
+  F Int32 m_49cceedf82564dd6ac4d3f4ca247767c
+  F Int32 m_c0d6c5ba75554d0c9b9f44239137eb2b
+  F Int32 m_2806009bc4b947a0b229a5d5dcbab7d8
+  F Int32 m_efcc946ac9a7496881d438f0cd5eed7d
+  F Int32 m_f056e5b57f324161853f9fd34ad5defb
+  F Int32 m_f1f27de5046541fa90329c1cd2a9ff22
+  F Int32 m_999d058f5d524287a796281866e6f8e3
+  F Int32 m_0546a7aaf9a1432a80ceb9bd6208f120
+  F Int32 m_cb7bccec28ce421e80ee924d712e6917
+  F Int32 m_a5686d36bbc647feb4e0993f6489f3f0
+  F Int32 m_3d979e370c414c0fb7c345adc12f6de8
+  F Int32 m_45f85c7a24624948ac8d1e2d9d91fcdb
+  F Int32 m_548fadf6f488427c87fd86e2c422f0ed
+  F Int32 m_a8965b17cd1d424b923d9a39fbe9e2e8
+  F Int32 m_88e80f2af9a9495aaa62353b97368b4d
+  F Int32 m_431465af734a44679100076610fb698b
+  F Int32 m_0260d5c31e634cce86323a1b230c41f8
+  F Int32 m_fb1f581aa21749f6b436f705bb702049
+  F Int32 m_96d243f12c8d4979802276052cc8ad5b
+  F Int32 m_97b3326518e84e0fb1f54462099f0c8b
+  F Int32 m_c9e09e8039e44f658f1c68d6b170b3c0
+  F Int32 m_36c7c0918c0e47e48a4c17fe309a8888
+  F Int32 m_34dba5a19f7c43f1884d825778c0d820
+  F Int32 m_fbe205cd4a6642cb897f66ef64b311f6
+  F Int32 m_283001a380f24857821833e8f3885f08
+  F Int32 m_4d551909784346a7b40161671b3cc259
+  F Int32 m_f3858a3319c346f385f2de82d19cb863
+  F Int32 m_b0c481608fb042b29454cf269aedf639
+  F Int32 m_3e52682f8b6b44ae956439bed246f839
+  F Int32 m_05b92f5c97f94d6a956ac3b5966fbb6b
+  F Int32 m_87efaae4c80f424d94c65416bc641a4a
+  F Int32 m_dc27d6aced424efd9dcfa9dddbdd8c8a
+  F Int32 m_9ed05a6d2642425e95a90a5597a8dfc1
+  F Int32 m_e010b982d79844f0a0ad44b93a5ff74a
+  F Int32 m_26b689b281eb4ebbbb29db4ea630e39f
+  F Int32 m_afe6eed4d027491abe6d98f730bf8dd0
+  F Int32 m_b9df54da1843468090510c830172fc5b
+  F Int32 m_fc3c43d5ece44796b51e0b7a7e15b5be
+  F Int32 m_d5a748ff66e44a84906f4d303f5a262d
+  F Int32 m_2f7c3a097cb543339e1f9d4620425d26
+  F Int32 m_97f39efe74614bf1a3be32c2615f9577
+  F Int32 m_7e8c963ee0c84c82b284848300471c9d
+  F Int32 m_74a228a407aa4a72902a9bea5b1a6dae
+  F Int32 m_92636064a4e1483493ee58fcad7de0b4
+  F Int32 m_0c2ff0ecd123410b8472a6c17420fb81
+  F Int32 m_d4c6cba2983840c09edfb40cbcbd76cd
+
+TYPE <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}
+  F __StaticArrayInitTypeSize=40 0E448EF5E5E60630BDDB19388CB6378436E3C65D03DD66DA7C6EBFF563BD857A
+  F __StaticArrayInitTypeSize=32 4BED3ADC52D4904075F6BBF279EC4ACEDE079533B95E229A29809542EA324A7B
+  F __StaticArrayInitTypeSize=256 62E6F13B53D67FDD780E20D89A6E8EE503B197AC16AC3F1D2571C147FDD324C9
+  F __StaticArrayInitTypeSize=256 74EF7306E7452D6859B6463CE496B8DF30925F69E1B2969E1F3F34BBC9C6AF04
+  F __StaticArrayInitTypeSize=64 7F535673D836D3D77A97DB03EB3D71EA780F44372F5AEBECEBEDD696AAEB8378
+  F __StaticArrayInitTypeSize=16 97E613E5A3A47DEC76B7E50D47644B35EA4322F00D594D80D2F1C1F3644F8A4A
+  F __StaticArrayInitTypeSize=32 C356AFF1A01C2B0DA472E584C8E3C8F875B9A24280435D42836A77B19F5A8C18
+  F __StaticArrayInitTypeSize=18 C61B1941CF756EB7551F7C661743802362728B785ADC22E860D269713DFB01A6
+  F __StaticArrayInitTypeSize=30 D5B7247C497788CF0031CEB06E3DF77A45FEF59F1E49633DC7159816D64759B5
+  NESTED <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}/__StaticArrayInitTypeSize=16
+  NESTED <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}/__StaticArrayInitTypeSize=18
+  NESTED <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}/__StaticArrayInitTypeSize=30
+  NESTED <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}/__StaticArrayInitTypeSize=32
+  NESTED <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}/__StaticArrayInitTypeSize=40
+  NESTED <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}/__StaticArrayInitTypeSize=64
+  NESTED <PrivateImplementationDetails>{E2937041-4EF9-4071-916F-EF888DF56E94}/__StaticArrayInitTypeSize=256
+
+TYPE ExamCam.Form1
+  M Void .ctor()
+  M Void Dispose(Boolean disposing)
+  M Void GBvrZPZHy(Object  , DoWorkEventArgs  )
+  M String get_usbcamera()
+  M Void ierEKjDq1(Object  , NewFrameEventArgs  )
+  M Void iTV08Ukd7(Object  , FormClosingEventArgs  )
+  M Void MaEAKuKn3(Object  , EventArgs  )
+  M Void msGYoLVoD()
+  M Void OhFa2wKsD(Object  , EventArgs  )
+  M Bitmap ResizeImage(Bitmap image, Int32 width, Int32 height)
+  M Void RlD21VLwx()
+  M Void RqxG77xRL()
+  M Void set_usbcamera(String value)
+  M Void TulisLog(String logMessage)
+  M Void U1j5WwGyh()
+  M Void UpdateCaptureSnapshotManifast(Bitmap image)
+  M Void VpRl4hUT9(Object  , EventArgs  )
+  M String Y3l9wRbxF(String  )
+  P String usbcamera
+  F FilterInfoCollection bKDUNFL9H
+  F VideoCaptureDevice IuXvNvo0N
+  F VideoCapabilities[] kHDN38qlx
+  F ArrayList HEIMcMnIT
+  F String pathFolder
+  F BackgroundWorker soMtl0d5u
+  F Stopwatch zybZhx3gE
+  F Boolean A3mpRyuSQ
+  F String namafotosimpan
+  F String namaImage
+  F Int32 XQwBLY6PT
+  F String cjO8xx9gW
+  F SslProtocols _Tls12
+  F SecurityProtocolType Tls12
+  F String UJyJbjESC
+  F String wcihcl2Xi
+  F IContainer wioHRdEZ9
+  F Panel xysyQjDyc
+  F Button eeyjSGrnP
+  F PictureBox ymWil21hB
+  F BackgroundWorker agLSXhXRi
+  F Timer KEA6BatUA
+  NESTED ExamCam.Form1/CaptureSnapshotManifast
+  NESTED ExamCam.Form1/<>c
+
+TYPE ExamCam.Properties.Resources
+  M Void .ctor()
+  M Bitmap get_botarrow3()
+  M CultureInfo get_Culture()
+  M ResourceManager get_ResourceManager()
+  M Void set_Culture(CultureInfo value)
+  P ResourceManager ResourceManager
+  P CultureInfo Culture
+  P Bitmap botarrow3
+  F ResourceManager CC0qB8D8s
+  F CultureInfo kEr4CC8yw
+
+TYPE ExamCam.Properties.Settings
+  M Void .cctor()
+  M Void .ctor()
+  M Settings get_Default()
+  P Settings Default
+  F Settings defaultInstance
+
+TYPE fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv
+  M Void .cctor()
+  M Void .ctor()
+  M Void AdH3sBmcbGjVcFKbRJi(Object )
+  M Byte[] AHKFcR0mW9(String  )
+  M Void AUaF8FhFFh()
+  M Byte[] aUlFo7kRde()
+  M Int32 AvcFSCumN1(IntPtr  , IntPtr  , Byte[]  , UInt32  , IntPtr&  )
+  M Stream b1YFqnkHJC()
+  M Object BQ5jTJmty2J5W2RisKg(Object )
+  M Object c4sJfemBUm46T7sRLea(Object , Int32  )
+  M Void c7omQIyx3g()
+  M Object CnQP2Gmqn6hTejt0tJb(Object )
+  M Void eDrPSZmg4AIH1ymxb68(Object )
+  M Byte[] EXPFrM1Vvj(Byte[]  )
+  M SymmetricAlgorithm FhJFYq4EIl()
+  M Boolean fi6FE95ohT()
+  M Byte[] fN1FbCTFAn()
+  M UInt32 G0TF0S0Knl(UInt32  , Int32  , Int64  , BinaryReader  )
+  M Void GqEF5N8Y0X(RuntimeTypeHandle  )
+  M Byte[] h1YFPkFlR3()
+  M Int32 HLWF1WFrTe(IntPtr  )
+  M Void hueFa5deUa(HashAlgorithm  , Stream  , UInt32  , Byte[]  )
+  M Byte[] I96FIL7dXJ()
+  M Object IrbrAumyewvTa4034mB()
+  M Object iyPJ2DmMDBEWrUg8LXb()
+  M Void J9cFti2oeg(Stream  , Int32  )
+  M Object jcGFhdc2Ts(Object  )
+  M Void JJCU6amj0AaFtFOvFIF(Object , CipherMode )
+  M Void Juce31mJC4ZVfjyOyKL(Object )
+  M Int32 k3lF6AU1Qq(IntPtr  , Int32  , Int32  , Int32&  )
+  M Void ldYFAbmwL2(HashAlgorithm  , Byte[]  , Int32  , Int32  )
+  M Byte[] lgMF4GAGqe(Stream  )
+  M String mj7FpXME5K(String  )
+  M IntPtr N5CFg677sY(UInt32  , Int32  , UInt32  )
+  M String nRtFZKeQPU(Int32  )
+  M Object Ody6Hbmi5XorcT2UdPc(Object , Object , Object )
+  M Void oiIF9Oi6bs()
+  M Object Ok16Pbm1o0jFn4Nb6oK(Object )
+  M Byte[] OoLFOdGvBQ()
+  M Object pTiNJJmSTZZ6vjXrrgB()
+  M Byte[] RdQFTtuZ6S()
+  M Void RkrFXj6S6g(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Void RMg63Pm6EewUctpGsB8(Object , Object , Int32 , Int32 )
+  M IntPtr sXKFH3O3dS(String  )
+  M Void TJhFl46rfA(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Delegate tPjFJNnSIy(IntPtr  , Type  )
+  M IntPtr U1xFivDbqU(IntPtr  , UInt32  , UInt32  , UInt32  )
+  M UInt32 u40FNm0uRA(UInt32  )
+  M Void UJpF2jdOdB(Byte[]  , Byte[]  , Byte[]  )
+  M Byte[] ULLF7h2dK8(Byte[]  )
+  M Void uS8FuPmyp9(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Byte[] usdFQCkhjb(Byte[]  )
+  M Void VqvFM1i8IZ()
+  M Boolean vtQGklmNSMWZRuMKOqI()
+  M Int64 VXioI8mpQWJCVRCvNHK(Object )
+  M IntPtr wgeFyBSLys(IntPtr  , String  )
+  M IntPtr XedFjt7R2x(IntPtr  , String  , UInt32  )
+  M Int32 xM5FBApMhh()
+  M IntPtr xMpiFL8WN()
+  M Void XMXFwbLtaf(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Object xQEMiLmHuxDxRn9ls6m(Object )
+  M UInt32 XqOFGRnwnh(UInt32  , UInt16  )
+  M Byte[] y0ZFeXKNRt()
+  M UInt32 y4mFvvbKU4(UInt32  )
+  M Byte[] Y9JFWroeRT()
+  M Object yh7pVmmhv0KncKef98u(Object )
+  M Byte[] YqnFV42qd5()
+  M Void yWU3GbmZbPepPsfO73B(Object , Int64 )
+  M Byte[] yYtFK4O6Jl()
+  M Void zWUtFIm8NY6NFu6rGEp(Object )
+  F UInt32[] PHmFdVPN69
+  F Boolean eWsFnN60m0
+  F RSACryptoServiceProvider VmqFzLAEIm
+  F Byte[] V1dRxhaOqf
+  F IntPtr WivRLxN0H7
+  F IntPtr vgQR7T4aMm
+  F Int32 dk9RXGS2F1
+  F Int32 U4aREJkdKG
+  F N5FlvWR6KUMO4c2xrIL SkkRYjwUPL
+  F Int32 kdORaJl90y
+  F Boolean xKCR0POVty
+  F IntPtr yNoRUJwEj6
+  F Hashtable O4cRNb9nvJ
+  F GNK61GRVAbdDKENMcn4 XCtRZnfDgY
+  F T6haf8Rb0fgW3hJTCnb LGsRpAE61j
+  F IntPtr VBkRJDU77f
+  F N5FlvWR6KUMO4c2xrIL dJIR9BnJ9m
+  F VRRmjuRoU0hfdwdCCSk XbaRM3YiTV
+  F Int64 YwfRriHJdM
+  F Int32[] UIXRwimFvU
+  F Byte[] PKYRCRp9Xs
+  F ixOowKROVJkvwIEY3tU gh4Rt85nxA
+  F Boolean yabFkauTx2
+  F Boolean YPpRvvBI2T
+  F Object KhTRmBlJVM
+  F Int64 MGCR2WsgsK
+  F Int32 ciORRPouSO
+  F Assembly H6HFsaaMmY
+  F Boolean sNJRA2uMQt
+  F Object rXxRup0gmk
+  F List`1 EnCRfvQ3XX
+  F Dictionary`2 amVRD7VaPr
+  F Int32 fR7R5HrwJY
+  F List`1 wPbR3fgIdB
+  F Object RgbRFr5yL0
+  F sKR4sQRW94ZrB02fyMa YX2R8ncyLg
+  F SortedList a5QRG3cJa9
+  F Boolean n39RlOgA6P
+  F gSqMZHRISDfpm15VhCK aV2RB5VJEq
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/F2CRlFRhaWI0ddM5Jfl
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/MgxhwgRH5DvNMTFAS9K
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/xFte8QRiETd8PhswuSA
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/N5FlvWR6KUMO4c2xrIL
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/i0E7lxRgtB6cU7dSdHa
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/Nu2nryR1p3PCn26wuwl
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/Aqbje3R4pxmmxaoqrBd
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/VRRmjuRoU0hfdwdCCSk
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/ixOowKROVJkvwIEY3tU
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/GNK61GRVAbdDKENMcn4
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/T6haf8Rb0fgW3hJTCnb
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/gSqMZHRISDfpm15VhCK
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/sKR4sQRW94ZrB02fyMa
+  NESTED fmqMvAFLAJh1RBBBBdw.hKjZs2FC0P6hG9iYqHv/sf3ZAORsGClfq6CnFtk
+
+TYPE g0jK0c19Nk9AYuUwHU.OrYtn1gVye1Qam4R6i
+  M Void dq3cN1Tmi()
+
+TYPE J497sIF3gpBybTL6d2O.iyynE7Fm7EIOmvU3Jsv
+  M Void .cctor()
+  M Void .ctor()
+  M Void GcKm49Ltjy(Int32 typemdt)
+  F Module hypFfWJm2I
+  NESTED J497sIF3gpBybTL6d2O.iyynE7Fm7EIOmvU3Jsv/txkLUoFxUhP57WRObtY
+
+TYPE lea45fRkMrnErfZSUlX.bcWtvFRdllaQ3U39Nte
+  M Void .ctor()
+  M Void PDkmTPFrns()
+  F Boolean gWORnhTvA7

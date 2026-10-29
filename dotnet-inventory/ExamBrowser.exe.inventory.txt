@@ -1,0 +1,357 @@
+﻿# ExamBrowser.exe
+Assembly: ExamBrowser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Types: 11
+
+TYPE <Module>
+  M Void .cctor()
+  M Void m8DE71F43B2DF263()
+  F Boolean f8DE71F43B2DF263
+
+TYPE <Module>{155A7D04-A8B9-4841-BF6B-AA4AD5B41787}
+
+TYPE <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b}
+  M Void .cctor()
+  M Void .ctor()
+  M Void p80a86f2904b043b89a417ca4d0f80688()
+  F Int32 m_0470da84d1cb4450af0e1948c18ea480
+  F Int32 m_72d5401ec49f4680b7a120e5d2514666
+  F Int32 m_3a0c862fe82444889037de65d0c68a82
+  F Int32 m_a3092932ecaa472abc946f42fe030ee3
+  F Int32 m_972e97c1df2943e6a0543978be76fd6c
+  F Int32 m_036ecd56c413453d95555d1b761e3d28
+  F Int32 m_9844ec19872343f1baa97e1d17447f31
+  F Int32 m_864f861b49a54ce8b9cb0cfbe242b02f
+  F Int32 m_493c9b46a07d4752a9f959f19ad30340
+  F Int32 m_855ff5850741436292d316ba6d3a00f5
+  F Int32 m_c9f5384b03b94ff9a3af6046e3d50640
+  F Int32 m_84bd11efa6124fe99b417b6698ab958f
+  F Int32 m_b543bd462760415fa9f1bb3e2ba87be2
+  F Int32 m_ad7b134bbd794b99b516d3b9f1c04884
+  F Int32 m_57b6f81a1d6942f59a14857ef9402351
+  F Int32 m_3f4b60adc68f47218a239f80e823a5ef
+  F Int32 m_dd1eb759079343049168347da943d75a
+  F Int32 m_61fa5f78516c4072baece1fd3c2b7b80
+  F Int32 m_dd4a8773a91a44c4ac1bdef8eb9e88aa
+  F Int32 m_81154e6dfb7f4734a8e704ec816c23a1
+  F Int32 m_d054a247ea17451180af29c7ae44dc81
+  F Int32 m_6286881d964346908cb51ea221fef546
+  F Int32 m_dea9a02eb6974f888b29cde89061f0d0
+  F Int32 m_e4d35dd47e2042c7884d4202f0f8f99e
+  F Int32 m_6a04cf2c08b34e2ab5fba0dc7a58b160
+  F Int32 m_7d8e206f6acf4aecb56289bb89b6d982
+  F Int32 m_dc13ebaa68544782943f4f33934a5676
+  F Int32 m_2394459c5a4941cca69bc037fcc08187
+  F Int32 m_21cbf90e4d764705b2e9e6903aa5355e
+  F Int32 m_9b57db20f46042d7b04b65c29a91db78
+  F Int32 m_361eda792ed14853ad89b1134cc943f1
+  F Int32 m_9432e344089b4a3fb02c9a18deaddb38
+  F Int32 m_f49a6982f85e4ae1bbafab2f72901189
+  F Int32 m_b30803cf82684e938c47b64254157aea
+  F Int32 m_91ba7d618cb74def8b0929e162a07539
+  F Int32 m_7a9955aa638d41b7a1fc55464aeb0502
+  F Int32 m_815dcf1a432e40d3ad84bf62bcf3b91c
+  F Int32 m_8f5772bb7cf64d2a9d0731eeec3a81ff
+  F Int32 m_028c7ce2bbf3464caaa2e696d8d4c5c8
+  F Int32 m_65edf8cb719c4ad781ec64a8cb344f7a
+  F Int32 m_1e2109022b5047b78770c369a1688d63
+  F Int32 m_e572b96f1c034ed9be9ad44f9702ca1d
+  F Int32 m_7e215b6140f04526a852642223990dbe
+  F Int32 m_788db739d6f8473b92ee631d624dc9a6
+  F Int32 m_dac4dce665fb455e8e4f9e4b3445bd12
+  F Int32 m_9133c818a2b5438d878b930dabb8b8b5
+  F Int32 m_f7376b50178146c695803f9b26eb6f23
+  F Int32 m_2bf14d10db3242c295a8040b00b735b9
+  F Int32 m_0c4e4696ea324d85a3c75d85b317cc7c
+  F <Module>{4e6c4e3e-445d-4173-b395-16e6bdbea19b} m_e704b67b91414e74941b79e0bc66fcaf
+  F Int32 m_017da7eb20f44e6585f9322994d67c13
+  F Int32 m_6dc40cb450ff4ae38d008b8a0a16b6e3
+  F Int32 m_81bbd530c9d34c4e871339fe33ec6549
+  F Int32 m_5b68586c168c4e4f98e4cee79935d719
+  F Int32 m_1fd77fefa3874e908817eade73c33f42
+  F Int32 m_b6c3fcabd69549be940f63596e9d6cd3
+  F Int32 m_00e70dae6e2f43939c134fe982b1b544
+  F Int32 m_6ed89ede5c504d98a1ed577062ce30a9
+  F Int32 m_fed7a1e1d45746b5be8db10fae27d2b0
+  F Int32 m_0deff9385c6943d187b7d66d4226de76
+  F Int32 m_e2a113023a244d35b12192d4194d2aa5
+  F Int32 m_f68d4e736d81482e8552c10af220f9b3
+  F Int32 m_4af71c14af9646ea8dfc48d408f4a9a0
+  F Int32 m_3991fbacc3db4082bafa408d27bd5d0e
+  F Int32 m_272e1e79de334b158a546ad09a779130
+  F Int32 m_4c24d9f86ef841a98ec42ea4757f00e1
+  F Int32 m_09fff2c3704c44b7b9814dc6aebc2a5c
+  F Int32 m_8c76c1479aad46bc8bd2847b06260aae
+  F Int32 m_ad350cabaa7d434b9e8da89f6df02dfe
+  F Int32 m_2ffc3b07cce44cca887a9859967cb583
+  F Int32 m_bd9cba1a9ae34b99832a02c9fcd82e54
+  F Int32 m_31b8f50ffbfa41f6bd05863592e3406b
+  F Int32 m_00a87fefa7344d0ebf46d618fb8b75db
+  F Int32 m_92b2d5cd7f89418db57fa57a45e7b03f
+  F Int32 m_84e098bd8d784dddaaf258c651ce1b20
+  F Int32 m_0cc248683079436c93981a542f719eae
+  F Int32 m_963bc12783ed4e67ae6cdebc9561aa01
+  F Int32 m_0f9de3c03a614c969ad05b343243148a
+  F Int32 m_08f04dd0bb794120bbaadb4224b0c451
+  F Int32 m_01e99e70540e425091e2f787240a7007
+  F Int32 m_a804713ab8a5461bb67d7a984a750d46
+  F Int32 m_d27226ec5c5743d2a279b7fb75f53eee
+  F Int32 m_6596eb633afa477082d52b04f5642b40
+  F Int32 m_11c5bacfd15943e5b5a4ca1dc1a43a12
+  F Int32 m_b503c96f499b4cb49a19be19b7cadabb
+  F Int32 m_66590c35c69a44caac4d3a8ebafc3424
+  F Int32 m_363d7b8a86e54a80971bda354ad29d84
+  F Int32 m_ac1b43ce705547b886924a6aa1695002
+  F Int32 m_c398577fff49453f979e0fa63af14be5
+  F Int32 m_ca8443b5292341f6a3c0de11b8f9429b
+  F Int32 m_422f85536c544e78a4fcb4f881ecc3f7
+  F Int32 m_1256cce1f5dd4e14abd015567abcc386
+  F Int32 m_18f5939d92e9455e906bfdd2f1dddc5c
+  F Int32 m_43eafb7d54524098b4a62cc09c7aba61
+  F Int32 m_f856686fb1174e32ad8c47271fb239cd
+  F Int32 m_100a1ccec23a4479b89de4ac85919e09
+  F Int32 m_b19e35bb6ceb4be6afe851dcdd791a9e
+  F Int32 m_4f0bf5183cb942b5be8a13cbebd43f5e
+  F Int32 m_3d509c7bc48e4d4ba89015cf13c928ae
+  F Int32 m_43cfc00ae4a9456c96efb4970b8482bb
+  F Int32 m_e65203bc302b463f8bd908842030fdf7
+  F Int32 m_2d299cf9155c461ba600512a488675b8
+  F Int32 m_0266179245c849d08e306baa61ab29a1
+  F Int32 m_3d6123ebb8534333ac7989c21ca21bbe
+  F Int32 m_ea8702e62beb4762aeb29eb7da4ba185
+  F Int32 m_a7d69614090f41d08b740ccad76d355e
+  F Int32 m_cb7161ab4b0941729c90f6f3457c8ab2
+  F Int32 m_fe3373ce374b4efc85d17b7d1454784f
+  F Int32 m_464abf8754fc4143b2e55113bbbacb16
+  F Int32 m_3d156dc9137c48f7ba55c2c62bef0dbb
+  F Int32 m_a72ea75ce4c0401b9dc989973e0f1b7b
+  F Int32 m_09a1781c6fd843c89ab7dc25a51cc05e
+  F Int32 m_b1dcb4e900fe4f7d98b9427c5d78f685
+  F Int32 m_31664721ec354bb4b116f930a45df5de
+  F Int32 m_7b5f653d7fe54631b16e5d79370bd977
+  F Int32 m_0befc0c44a7647439969e7608d1fdf34
+  F Int32 m_ff8447b616b34fa4951adbbb397c3fb6
+  F Int32 m_d8e135242465443d99a5a51ce062be8e
+  F Int32 m_6b90621226d64853903c17cf1f306d4f
+  F Int32 m_21c6d5e38d024d27a16b170a37f809f3
+  F Int32 m_11c34a60e7a1423eb634d014e13da969
+  F Int32 m_b5d4ff5d81224edf89bc14efc29175b5
+  F Int32 m_701bfa1500e4470280d2578a0b861a68
+  F Int32 m_232c04c20cb540caac5ed344328d700f
+  F Int32 m_a490893c5d6443c5b31f9fae6992ba06
+  F Int32 m_def4cebe474e4711bec47b2f0ccb3bf5
+  F Int32 m_1536985e7afc4ac68cb9c6bc54c6c710
+
+TYPE <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}
+  F __StaticArrayInitTypeSize=40 0E448EF5E5E60630BDDB19388CB6378436E3C65D03DD66DA7C6EBFF563BD857A
+  F __StaticArrayInitTypeSize=32 4BED3ADC52D4904075F6BBF279EC4ACEDE079533B95E229A29809542EA324A7B
+  F __StaticArrayInitTypeSize=256 62E6F13B53D67FDD780E20D89A6E8EE503B197AC16AC3F1D2571C147FDD324C9
+  F __StaticArrayInitTypeSize=256 74EF7306E7452D6859B6463CE496B8DF30925F69E1B2969E1F3F34BBC9C6AF04
+  F __StaticArrayInitTypeSize=64 7F535673D836D3D77A97DB03EB3D71EA780F44372F5AEBECEBEDD696AAEB8378
+  F __StaticArrayInitTypeSize=16 97E613E5A3A47DEC76B7E50D47644B35EA4322F00D594D80D2F1C1F3644F8A4A
+  F __StaticArrayInitTypeSize=32 C356AFF1A01C2B0DA472E584C8E3C8F875B9A24280435D42836A77B19F5A8C18
+  F __StaticArrayInitTypeSize=18 C61B1941CF756EB7551F7C661743802362728B785ADC22E860D269713DFB01A6
+  F __StaticArrayInitTypeSize=30 D5B7247C497788CF0031CEB06E3DF77A45FEF59F1E49633DC7159816D64759B5
+  NESTED <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}/__StaticArrayInitTypeSize=16
+  NESTED <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}/__StaticArrayInitTypeSize=18
+  NESTED <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}/__StaticArrayInitTypeSize=30
+  NESTED <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}/__StaticArrayInitTypeSize=32
+  NESTED <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}/__StaticArrayInitTypeSize=40
+  NESTED <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}/__StaticArrayInitTypeSize=64
+  NESTED <PrivateImplementationDetails>{2D612394-C21C-41C8-AE29-7FFD3A860C37}/__StaticArrayInitTypeSize=256
+
+TYPE ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb
+  M Void .cctor()
+  M Void .ctor()
+  M Byte[] aAmja2lQk()
+  M Object AdgT0ro4mq5wpRWoRy(Object )
+  M Byte[] agJFCJ1xK()
+  M Void ajByiqZFfbQAQAl8vV(Object )
+  M Boolean ATowwNPrY()
+  M Void BhV0hHBTR()
+  M UInt32 BsjB3E2bv(UInt32  )
+  M IntPtr CQ8KpwfmW(IntPtr  , UInt32  , UInt32  , UInt32  )
+  M Void Cy6pxejBd(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Int32 CyhNKtDhN(IntPtr  , Int32  , Int32  , Int32&  )
+  M Byte[] E4qkSojnm()
+  M String EbSURpKkd(String  )
+  M SymmetricAlgorithm F0g3HioQ5()
+  M Void fVHZGkY9Z(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Void g04Qq8VXFYmisjEvyM(Object , Int64 )
+  M IntPtr gEmOxjevy(String  )
+  M Void hcP4kFba5(HashAlgorithm  , Byte[]  , Int32  , Int32  )
+  M IntPtr HhKmApbqM(IntPtr  , String  , UInt32  )
+  M Delegate hu4AKlcw8(IntPtr  , Type  )
+  M Byte[] JEPhgwSRG(Byte[]  )
+  M Byte[] KgeL3cbxK()
+  M Int64 KiMRjsLIjV3RGrZs2f(Object )
+  M Byte[] kPETfZcdn(Byte[]  )
+  M Object kxLUlYqMGA85PR2VQj()
+  M Void laFROyAMj(RuntimeTypeHandle  )
+  M Void Lm4b6WHetEH2UiZi4a(Object )
+  M Byte[] LSOxTDPd4()
+  M Byte[] LUnr8VNMq()
+  M IntPtr lUWSIfCTM(UInt32  , Int32  , UInt32  )
+  M Void LYM7HWeev(Stream  , Int32  )
+  M Stream MQ4Q7Tmmn()
+  M Void mqtJcO6oA(Byte[]  , Byte[]  , Byte[]  )
+  M Void nIXet1r3W()
+  M Byte[] NOGIFSrxI()
+  M Byte[] odFM3MlAA(Stream  )
+  M Void off90GnsO(HashAlgorithm  , Stream  , UInt32  , Byte[]  )
+  M Object osHuZWD1Pq7EdBLCv8(Object )
+  M UInt32 OUbGpeW8L(UInt32  , UInt16  )
+  M Void PaVtFO00G(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Object PBu28H92I(Object  )
+  M UInt32 PfNynOvuA(UInt32  , Int32  , Int64  , BinaryReader  )
+  M Byte[] pgKVySW8L()
+  M Byte[] PlL5HuggP(String  )
+  M Object PpeFMIA2cYC7mZ8ces()
+  M Void PY2sRQVOC()
+  M Void QeDaco1htdOt8QduCl(Object )
+  M Int32 qhOPNI5hK(IntPtr  , IntPtr  , Byte[]  , UInt32  , IntPtr&  )
+  M Void s0XvAasS1Q7JC1idN8(Object , Object , Int32 , Int32 )
+  M Object sZX4F2dvd84yL5gZjR(Object )
+  M Object t4O6d5uX2jh16aVGww(Object )
+  M Object tkCy8Yydv5lcj0o3KU()
+  M UInt32 udAnniqFd(UInt32  )
+  M Boolean V0J3M5lhHEwGCilv91()
+  M Int32 V2OuYgXkD()
+  M String v8Sa8hFQ7(Int32  )
+  M IntPtr VP6qaWD67(IntPtr  , String  )
+  M Void vvp32gNe0WwkQnWRb8(Object )
+  M Void wjb4mDP4a8wJGIICFB(Object , CipherMode )
+  M Void Wujgi7vpK(UInt32&  , UInt32  , UInt32  , UInt32  , UInt32  , UInt16  , UInt32  , UInt32[]  )
+  M Int32 XdZHBI9wM(IntPtr  )
+  M Void xiubqg3Y8()
+  M IntPtr xMpiFL8WN()
+  M Object xUK4juFGVqJLbnrMvC(Object , Int32  )
+  M Byte[] XZnlOaWvV()
+  M Object YEDMVZMDb5LBJ6ea53(Object , Object , Object )
+  M Object YHO7hTExRUcplbFuCy(Object )
+  M Byte[] zF5CQkh7j()
+  M Byte[] zfNXYKYms(Byte[]  )
+  F Object WnIDE9Dy4a
+  F Byte[] qOODpkZqqL
+  F Byte[] QVdDtCREQP
+  F IntPtr g8HDgBnXCA
+  F Object Q1nDGGQEgl
+  F Int32 TmmDTVAwAg
+  F fvqneleNrHkeHC7sEC uuID4w2Q5G
+  F Int64 GbGD88CUhv
+  F Boolean rEyDdvbtws
+  F IntPtr t98D0cpT82
+  F Dw8HBnmXCA8lXSOsy2 DvBDuE2TTq
+  F Q1nGQEKglnvkt1baC5 Y4ADeFFv0O
+  F Ox1Se2N1mmVAwAgOZx DP7D6X9JBc
+  F Int32 DRLDR8w0rR
+  F UInt32[] MHkfeHC7s
+  F Hashtable awID7ZEOLI
+  F Boolean ywkWsxDjj
+  F Boolean GXjD3eqHu4
+  F IntPtr olXDZSOsy2
+  F List`1 kRIDX1cg3I
+  F Boolean e9lDnJdmmR
+  F RSACryptoServiceProvider pFYcBtDEb
+  F IntPtr GS5D2iVFbv
+  F Assembly CZv1qnelN
+  F SortedList X1kDsx1Se2
+  F Object XPtYP4Lg4
+  F Dictionary`2 BpgvDK0ob
+  F Boolean firstrundone
+  F Int32 aIJzkjDFF
+  F Int64 zZxD90d8XU
+  F Int32 FDGDJkRoET
+  F List`1 uFeDDwOkp4
+  F Int32 ss5DBafsY8
+  F Int32[] qvkDwt1baC
+  F Boolean aCPoXODNf
+  F bGkRoEPT5XjeqHu4v1 bjuDAVmQVp
+  F m4aUFeOwOkp4TRI1cg kI5DaW4SX1
+  F fvqneleNrHkeHC7sEC CMqDy16yy0
+  F iInOOkqZqqLVVdCREQ U2EDUHEjUA
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/JIS4qSaojnmEgJCJ1x
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/CdgKySUW8LvZnOaWvV
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/xMpFL8uWN6TA8tkBBK
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/fvqneleNrHkeHC7sEC
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/CXODNfA6wksxDjjdFY
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/rtDEbm6pgDK0obvPtP
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/lLg4EI2JkjDFFcnI9D
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/m4aUFeOwOkp4TRI1cg
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/iInOOkqZqqLVVdCREQ
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/Dw8HBnmXCA8lXSOsy2
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/Q1nGQEKglnvkt1baC5
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/bGkRoEPT5XjeqHu4v1
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/Ox1Se2N1mmVAwAgOZx
+  NESTED ceW8LqtTowNPrYyqtc.Ni7vpKpZVHGkY9ZkUb/sd8XUUSuIw2Q5GKMq1
+
+TYPE Downloadpembaruan.Form_pembaruan
+  M Void .cctor()
+  M Void .ctor()
+  M Void <DownloadFile>b__17_0(Object sender, DownloadProgressChangedEventArgs e)
+  M Void button1_Click(Object sender, EventArgs e)
+  M Void checkDownload(Object source, ElapsedEventArgs e)
+  M Void Completed(Object sender, AsyncCompletedEventArgs e)
+  M Void Dispose(Boolean disposing)
+  M Void DownloadFile(String urlAddress, String location)
+  M String DownloadString(String address)
+  M Void extract()
+  M Void Form_pembaruan_Load(Object sender, EventArgs e)
+  M Void InitializeComponent()
+  M Void ProgressChanged(Object sender, DownloadProgressChangedEventArgs e, Boolean has)
+  M Void readVersion()
+  M Void runningApps()
+  M Void TulisLog(String logMessage)
+  F String versionupdate
+  F String nameupdate
+  F WebClient webClient
+  F Stopwatch sw
+  F Boolean hasProgresChanged
+  F Timer checkDLTimer
+  F String ExamFile
+  F String namafilezip
+  F String urlupdatefile
+  F String validseleksi
+  F String jenisos
+  F String urlupdatefolder
+  F SslProtocols _Tls12
+  F SecurityProtocolType Tls12
+  F IContainer components
+  F Panel panelContainer
+  F Panel panelTitleBar
+  F Label LabJudul
+  F Button button1
+  F Label labelDownloaded
+  F ProgressBar updateProgress1
+  NESTED Downloadpembaruan.Form_pembaruan/<>c
+
+TYPE Downloadpembaruan.Program
+  M Void Main()
+
+TYPE Downloadpembaruan.Properties.Resources
+  M Void .ctor()
+  M CultureInfo get_Culture()
+  M ResourceManager get_ResourceManager()
+  M Void set_Culture(CultureInfo value)
+  P ResourceManager ResourceManager
+  P CultureInfo Culture
+  F ResourceManager resourceMan
+  F CultureInfo resourceCulture
+
+TYPE Downloadpembaruan.Properties.Settings
+  M Void .cctor()
+  M Void .ctor()
+  M Settings get_Default()
+  P Settings Default
+  F Settings defaultInstance
+
+TYPE m6xejBXdVaVFO00Gcu.Y0m6RjDVlOfNYKYmsK
+  M Void .cctor()
+  M Void .ctor()
+  M Void QpYnvBXBC(Int32 typemdt)
+  F Module Y0mD6RjVl
+  NESTED m6xejBXdVaVFO00Gcu.Y0m6RjDVlOfNYKYmsK/SFU4mbT3GMret7THonf
+
+TYPE POCTPEZfZcdnRff0Gn.z6oAH0ggHioQ5FY2RQ
+  M Void .ctor()
+  M Void rPZXSxnqb()
+  F Boolean DqZDOydcoF
