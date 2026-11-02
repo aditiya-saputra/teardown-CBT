@@ -1,0 +1,42 @@
+start 2026-11-02T07:49:55.1022122+07:00
+=== ExamBrowser 2026-11-02T07:49:55.1282155+07:00 ===
+exit=0
+
+FullName                                                                                                      Length
+--------                                                                                                      ------
+dotnet-decompiled\ExamBrowser\ExamBrowser.decompiled.cs 120772
+
+
+=== runningexam 2026-11-02T07:49:55.7602255+07:00 ===
+exit=0
+
+FullName                                                                                                      Length
+--------                                                                                                      ------
+dotnet-decompiled\runningexam\runningexam.decompiled.cs 283397
+
+
+=== LibraryExam 2026-11-02T07:49:56.6303006+07:00 ===
+exit=0
+
+FullName                                                                                                       Length
+--------                                                                                                       ------
+dotnet-decompiled\LibraryExam\LibraryExam.decompiled.cs 1562318
+
+
+=== ExamCam 2026-11-02T07:50:02.5481878+07:00 ===
+exit=0
+
+FullName                                                                                              Length
+--------                                                                                              ------
+dotnet-decompiled\ExamCam\ExamCam.decompiled.cs 123001
+
+
+=== ExamServices 2026-11-02T07:50:03.2549511+07:00 ===
+exit=0
+
+FullName                                                                                                        Length
+--------                                                                                                        ------
+dotnet-decompiled\ExamServices\ExamServices.decompiled.cs 165840
+
+
+done 2026-11-02T07:50:04.0818810+07:00
